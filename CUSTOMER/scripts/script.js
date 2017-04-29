@@ -11,6 +11,15 @@ jQuery(document).ready(function($) {
     $('.mobile-nav-wrapper').removeClass('active');
   })
 
+
+ setTimeout(function(){
+    $('#social').removeClass('noNotification');
+    $('#social').addClass('socialNotification');
+   // $(this).removeClass(‘tab’);
+    //$(this).addClass(‘activetab’);
+  }, 3000);
+
+
 });
 
 var main = function() {
@@ -51,4 +60,7 @@ var main = function() {
 }
 
 $(document).ready(main);
+
+
+
 

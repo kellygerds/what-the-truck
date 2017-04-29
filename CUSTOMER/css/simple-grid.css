@@ -346,6 +346,27 @@ body {
 
 }
 
+#social{
+  margin-top: -20px;
+  margin-left: -20px;
+  position: absolute;
+  width: 41px;
+  height: 35px;
+
+}
+
+.noNotification{
+  background-image: url('../images/social.png');    
+  background-size: 41px 35px;
+  background-repeat: no-repeat;
+}
+
+.socialNotification{
+  background-image: url('../images/orange_social.png'); 
+  background-size: 41px 35px;
+  background-repeat: no-repeat;   
+}
+
 /*HAMBURGER MENU*/
 .mobile-nav-wrapper{
   display: none;
