@@ -1048,6 +1048,7 @@ p-truck {
 
 a {
   text-decoration: none; /* no underline */
+  color: black;
  }
 
 a:visited { 
