@@ -1040,692 +1040,700 @@ a {
 }
 
 a:visited { 
-  text-decoration: none; color: inherit; }
-
-  a:hover { 
-    text-decoration: none; color: inherit; }
-
-    a:focus { 
-      text-decoration: none; color: inherit; }
-
-      a:hover, a:active { 
-        text-decoration: none; color: inherit; }
-
-        /*font awesome*/
-
-        .fa.fa-user{
-          font-size: 28px;
-          padding-right: 10px;
-        }  
-
-        .fa.fa-search{
-          font-size: 28px;
-          padding-right: 10px;
-        }  
-
-        .fa.fa-cog{
-          font-size: 28px;
-          padding-right: 10px;
-        }  
-
-
-        .fa.fa-flag{
-          font-size: 28px;
-          padding-right: 10px;
-        }  
-
-        .fa.fa-sign-out{
-          font-size: 28px;
-          padding-right: 10px;
-        }  
-
-        .fa.fa-times{
-          font-size: 30px;
-          margin-top: 10px;
-        } 
-
-
-        .textcenter{
-          text-align: center;
-        }
-
-        .textleft{
-          text-align: left;
-        }
-
-        .textright{
-          text-align: right;
-        }
-
-        .caret {
-          margin-top: 40px;
-        }
-
-        /*Calendar Stuff*/
-
-        .daily-calendar-top{
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          margin-top: 220px;
-          margin-left: 20px;
-          margin-right: 20px;
-          border-bottom: none;
-          border-style: none;
-          text-align: center;
-        }
-
-        .daily-calendar-bottom{
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          margin-top: 10px;
-          margin-left: 10px;
-          margin-right: 10px;
-          border-bottom: none;
-          border-style: none;
-          text-align: center;
-        }
-
-        .calendar-info{
-          margin-left: 20px;
-          padding-top: 20px;
-        }
-
-        .calendar-bottom-date{
-          padding-top: 20px;
-          margin-top: -10px;
-        }
-
-        .calendar-buttons{
-          margin-top: 90px;
-          text-align: center;
-          display: block;
-        }
-
-        .refined-buttons{
-          margin-top: 20px;
-          text-align: center;
-          display: block;
-          margin-bottom: 30px;
-          width: 100%;
-        }
-
-        .calendar-buttons-2{
-          text-align: center;
-          margin-left: 30px;
-        }
-
-
-        #calendar {
-          font-family: inherit;
-          background: #e4e0e7;
-          height: 260px;
-          margin: 20px auto;
-          margin-top: 240px;
-          position: relative;
-          text-align: center;
-          width: 316px;
-        }
-
-        #month {
-          font-family: inherit;
-          background: #387ea5;
-          color: white;
-          height: 30px;
-          line-height: 30px;
-          text-shadow: 0 -1px 0 #878787;
-          width: 316px;
-        }
-
-        #days {
-          background: linear-gradient(#f4f4f4, #ebebeb);
-          -webkit-box-shadow: 0 1px 0 #aaaaaa;
-        }
-
-        table.days {
-          color: #75b8e5;
-          font-size: 11px;
-          width: 316px;
-        }
-
-        table.day td, table.days td {
-          width: 50px;
-        }
-
-        table.day td {
-          background: #f4f0f7;
-          color: #878787;
-          height: 40px;
-          box-shadow: 0 -1px 0 #387ea5;
-        }
-
-        table.day td.old-month {
-          color: #aaaaaa;
-        }
-
-        table.day td.selected {
-          background: #75b8e5;
-          color: white;
-          text-shadow: 0 -1px 0 #878787;
-        }
-
-        table.day td.appoint {
-          background: #fdc561;
-        }
-
-        #booking-calendar {
-          font-family: inherit;
-          background: #e4e0e7;
-          height: 260px;
-          margin: 20px auto;
-          margin-top: 10px;
-          position: relative;
-          text-align: center;
-          width: 316px;
-        }
-
-        #booking-month {
-          font-family: inherit;
-          background: #387ea5;
-          color: white;
-          height: 30px;
-          line-height: 30px;
-          text-shadow: 0 -1px 0 #878787;
-          width: 316px;
-        }
-
-        #booking-days {
-          background: linear-gradient(#f4f4f4, #ebebeb);
-          -webkit-box-shadow: 0 1px 0 #aaaaaa;
-        }
-
-        table.booking-days {
-          color: #75b8e5;
-          font-size: 11px;
-          width: 316px;
-        }
-
-        table.booking-day td, table.booking-days td {
-          width: 50px;
-        }
-
-        table.booking-day td {
-          background: #f4f0f7;
-          color: #878787;
-          height: 40px;
-          box-shadow: 0 -1px 0 #387ea5;
-        }
-
-        table.booking-day td.old-booking-month {
-          color: #aaaaaa;
-        }
-
-        table.booking-day td.selected {
-          background: #75b8e5;
-          color: white;
-          text-shadow: 0 -1px 0 #878787;
-        }
-
-        table.booking-day td.appoint {
-          background: #000;
-        }
-
-
-        /*map*/
-
-        .google-maps{
-
-          background-image: url('../images/google_map_bkrd.jpg');
-          background-position: center;
-          background-size: fixed;
-          min-height: 500px !important;
-          margin-top: -50px;
-        }
-
-        .map{
-          background-image: url('../images/google_maps.jpg');
-          background-position: center;
-          background-size: cover;
-          min-height: 200px !important;
-          margin-top: 10px;
-
-        }
-
-        .truck1{
-          margin-top: 40px;
-          margin-left: 100px;
-        }
-
-        .truck2{
-          margin-top: 40px;
-        }
-
-        .truck3{
-          margin-left: 150px;
-        }
-
-        .truck4{
-          margin-left: 280px;
-          margin-top: 20px;
-        }
-
-        .truck5{
-          margin-left: 100px;
-          margin-bottom: 50px;
-        }
-
-        .truck6{
-          margin-left: 40px;
-        }
-
-        .truck7{
-          margin-left: 80px;
-        }
-
-        /*notifications*/
-
-        .notifications{
-          margin-top: 230px;
-        }
-
-        /*Buttons*/
-
-        .sign-in-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;;
-          border: 2px solid #387ea5; 
-        }
-
-        .sign-up-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;;
-          border: 2px solid #75b8e5; 
-        }
-
-        .order-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 14px;
-          margin-top: 5px;
-          padding: 3px 7px;;
-          border: 2px solid #387ea5; 
-        }
-
-        .credit-card-button {
-          background-color: white;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          margin-right: 30px;
-          padding: 5px 12px;;
-          border: 2px solid #75b8e5; 
-          margin-bottom: 40px;
-        }
-
-        .calendar-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 14px;
-          margin-left: 15px;
-          border: 2px solid #e27226;
-        }
-
-        .change-button { /*orange*/
-          background-color: #e27226;
-          position: relative;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 5px;
-          padding: 5px 12px;;
-          width: 30%;
-          border: 2px solid #e27226; 
-        }
-
-        .yellow-button{
-          background-color: #fdc561;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 5px 14px;;
-          border: 2px solid #fdc561; 
-        }
-
-        .yellow-checkout-button{
-          background-color: #fdc561;
-          text-align: center;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          margin-bottom: 40px;
-          padding: 5px 14px;;
-          border: 2px solid #fdc561; 
-        }
-
-        .yellow-button-wide{
-          background-color: #fdc561;
-          color: black;
-          border-radius: 4px;
-          width: 60%;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 5px 14px;;
-          border: 2px solid #fdc561; 
-        }
-
-        .orange-button{
-          background-color: #e27226;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 5px 14px;;
-          border: 2px solid #e27226; 
-        }
-
-        .order-button{
-          float: right;
-          height: 80px;
-          width: 80px;
-          border-radius: 100%;
-          position: absolute;
-          z-index: 3;
-          line-height: 18px;
-        }
-
-        .orange-button-outline{
-          background-color: white;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 30px;
-          padding: 3px 16px;;
-          border: 2px solid #e27226; 
-        }
-
-        .orange-rewards{
-          background-color: white;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 3px 16px;;
-          border: 2px solid #e27226; 
-        }
-
-        .solid-dark-blue-button{
-          background-color: #387ea5;
-          position: relative;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;
-          border: 2px solid #387ea5;
-        }
-
-        .solid-dark-blue-button-social{
-          background-color: #387ea5;
-          text-align: center;
-          width:50%;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          margin-left: 80px;
-          padding: 5px 12px;
-          border: 2px solid #387ea5;
-        }
-        .solid-light-blue-button{
-          background-color: #75b8e5;
-          position: relative;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;
-          border: 2px solid #75b8e5;
-        }
-
-
-        .solid-dark-blue-button-calendar{
-          background-color: #387ea5;
-          width: 90%;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;
-          border: 2px solid #387ea5;
-        }
-
-        .solid-light-blue-button-calendar{
-          background-color: #75b8e5;
-          width: 90%;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;
-          border: 2px solid #75b8e5;
-        }
-
-        .booking-button{
-          background-color: white;
-          width: 50%;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;
-          border: 2px solid #75b8e5;
-        }
-
-        .solid-red-button{
-          background-color: #cc3630;
-          position: relative;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 40px;
-          padding: 5px 12px;
-          border: 2px solid #cc3630;
-        }
-
-        .pay{
-          background-color: #cc3630;
-          position: relative;
-          color: white;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 5px 10px;
-          border: 2px solid #cc3630;
-        }
-
-        .next{
-          text-align: center;
-          margin:auto;
-          display: block;
-        }
-
-
-        .continue{
-          text-align: center;
-          margin:auto;
-          margin-top: 200px;
-          display: block;
-        }
-
-        .continue-original{
-          text-align: center;
-          margin:auto;
-          display: block;
-        }
-
-        .continue-2{
-          text-align: center;
-          margin:auto;
-          display: block;
-        }
-
-        .update-email-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 5px 12px;;
-          border: 2px solid #387ea5; 
-        }
-
-        .update-password-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 20px;
-          padding: 5px 12px;;
-          border: 2px solid #387ea5; 
-        }
-
-        .update-location-button{
-          text-align: center;
-          margin:auto;
-          margin-top: 90px;
-          display: block;
-        }
-
-        .submit-button {
-          text-align: center;
-          margin-top: -15px;
-        }
-
-        .edit-profile-button {
-          background-color: white;
-          position: relative;
-          color: black;
-          border-radius: 4px;
-          font-size: 16px;
-          margin-top: 10px;
-          padding: 5px 12px;;
-          border: 2px solid #387ea5; 
-        }
-
-        /*follow/unfollow*/
-
-
-
-        /*radio buttons*/
-
-        .search-options {
-          margin-top: 20px;
-          text-align: left;
-          margin-left: 40px;
-          margin-right: 20px;
-        }
-
-        .radio{
-          text-align: center;
-        }
-
-        /*Fields*/
-        .sign-in-username{
-          margin-top: 30px;
-          width: 90%;
-          height: 30px;
-        }
-
-        .sign-in-password{
-          margin-top: 30px;
-          width:90%;
-          height: 30px;
-        }
-
-        .standard-field{
-          margin-top: 30px;
-          width: 90%;
-          height: 30px;
-        }
-
-        .user{
-          margin-top: 20px;
-          margin-left: 20px;
-        }
-
-        .password{
-          margin-top: 20px;
-          margin-left: 20px;
-        }
-
-        .card-field{
-          margin-top: 220px;
-          width: 90%;
-          height: 30px;
-        }
-
-        .card-type{
-          margin-top: 25px;
-        }
-
-
-        textarea {
-          width: 300px;
-          height: 200px;
-          border: 2px solid #ccc;
-          border-radius: 4px;
-          background-color: #f8f8f8;
-          font-size: 16px;
-          resize: none;
-          margin: 0 auto;
-          margin-top: 50px;
-        }
-
-        .status-box {
-          width: 300px;
-          height: 100px;
-          border: 2px solid #fff;
-          border-radius: 4px;
-          background-color: #fff;
-          font-size: 16px;
-          resize: none;
-          margin: 0 auto;
-          margin-top: 50px;
-        }
-
-        .textarea-order {
-          width: 300px;
-          height: 100px;
-          border: 2px solid #ccc;
-          border-radius: 4px;
-          background-color: #f8f8f8;
-          font-size: 16px;
-          resize: none;
-          margin: 0 auto;
-          margin-top: 50px;
-        }
-
-        /*dropdowns*/
+  text-decoration: none; color: inherit; 
+}
+
+a:hover { 
+  text-decoration: none; color: inherit; 
+}
+
+a:focus { 
+  text-decoration: none; color: inherit; 
+}
+
+a:hover, a:active { 
+  text-decoration: none; color: inherit; 
+}
+
+/*font awesome*/
+
+.fa.fa-user{
+  font-size: 28px;
+  padding-right: 10px;
+}  
+
+.fa.fa-search{
+  font-size: 28px;
+  padding-right: 10px;
+}  
+
+.fa.fa-cog{
+  font-size: 28px;
+  padding-right: 10px;
+}  
+
+
+.fa.fa-flag{
+  font-size: 28px;
+  padding-right: 10px;
+}  
+
+.fa.fa-sign-out{
+  font-size: 28px;
+  padding-right: 10px;
+}  
+
+.fa.fa-times{
+  font-size: 30px;
+  margin-top: 10px;
+} 
+
+
+.textcenter{
+  text-align: center;
+}
+
+.textleft{
+  text-align: left;
+}
+
+.textright{
+  text-align: right;
+}
+
+.caret {
+  margin-top: 40px;
+}
+
+/*Calendar Stuff*/
+
+.daily-calendar-top{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 220px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: none;
+  border-style: none;
+  text-align: center;
+}
+
+.daily-calendar-bottom{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: none;
+  border-style: none;
+  text-align: center;
+}
+
+.calendar-info{
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.calendar-bottom-date{
+  padding-top: 20px;
+  margin-top: -10px;
+}
+
+.calendar-buttons{
+  margin-top: 90px;
+  text-align: center;
+  display: block;
+}
+
+.refined-buttons{
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.calendar-buttons-2{
+  text-align: center;
+  margin-left: 30px;
+}
+
+
+#calendar {
+  font-family: inherit;
+  background: #e4e0e7;
+  height: 260px;
+  margin: 20px auto;
+  margin-top: 240px;
+  position: relative;
+  text-align: center;
+  width: 316px;
+}
+
+#month {
+  font-family: inherit;
+  background: #387ea5;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  text-shadow: 0 -1px 0 #878787;
+  width: 316px;
+}
+
+#days {
+  background: linear-gradient(#f4f4f4, #ebebeb);
+  -webkit-box-shadow: 0 1px 0 #aaaaaa;
+}
+
+table.days {
+  color: #75b8e5;
+  font-size: 11px;
+  width: 316px;
+}
+
+table.day td, table.days td {
+  width: 50px;
+}
+
+table.day td {
+  background: #f4f0f7;
+  color: #878787;
+  height: 40px;
+  box-shadow: 0 -1px 0 #387ea5;
+}
+
+table.day td.old-month {
+  color: #aaaaaa;
+}
+
+table.day td.selected {
+  background: #75b8e5;
+  color: white;
+  text-shadow: 0 -1px 0 #878787;
+}
+
+table.day td.appoint {
+  background: #fdc561;
+}
+
+#booking-calendar {
+  font-family: inherit;
+  background: #e4e0e7;
+  height: 260px;
+  margin: 20px auto;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 316px;
+}
+
+#booking-month {
+  font-family: inherit;
+  background: #387ea5;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  text-shadow: 0 -1px 0 #878787;
+  width: 316px;
+}
+
+#booking-days {
+  background: linear-gradient(#f4f4f4, #ebebeb);
+  -webkit-box-shadow: 0 1px 0 #aaaaaa;
+}
+
+table.booking-days {
+  color: #75b8e5;
+  font-size: 11px;
+  width: 316px;
+}
+
+table.booking-day td, table.booking-days td {
+  width: 50px;
+}
+
+table.booking-day td {
+  background: #f4f0f7;
+  color: #878787;
+  height: 40px;
+  box-shadow: 0 -1px 0 #387ea5;
+}
+
+table.booking-day td.old-booking-month {
+  color: #aaaaaa;
+}
+
+table.booking-day td.selected {
+  background: #75b8e5;
+  color: white;
+  text-shadow: 0 -1px 0 #878787;
+}
+
+table.booking-day td.appoint {
+  background: #000;
+}
+
+
+/*map*/
+
+.google-maps{
+
+  background-image: url('../images/google_map_bkrd.jpg');
+  background-position: center;
+  background-size: fixed;
+  min-height: 500px !important;
+  margin-top: -50px;
+}
+
+.map{
+  background-image: url('../images/google_maps.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 200px !important;
+  margin-top: 10px;
+
+}
+
+.truck1{
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.truck2{
+  margin-top: 40px;
+}
+
+.truck3{
+  margin-left: 150px;
+}
+
+.truck4{
+  margin-left: 280px;
+  margin-top: 20px;
+}
+
+.truck5{
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+.truck6{
+  margin-left: 40px;
+}
+
+.truck7{
+  margin-left: 80px;
+}
+
+/*notifications*/
+
+.notifications{
+  margin-top: 230px;
+}
+
+/*Buttons*/
+
+.sign-in-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
+}
+
+.sign-up-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;;
+  border: 2px solid #75b8e5; 
+}
+
+.order-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 3px 7px;;
+  border: 2px solid #387ea5; 
+}
+
+.order-button:focus{
+  outline:none;
+}
+
+.credit-card-button {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: 30px;
+  padding: 5px 12px;;
+  border: 2px solid #75b8e5; 
+  margin-bottom: 40px;
+}
+
+.calendar-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 14px;
+  margin-left: 15px;
+  border: 2px solid #e27226;
+}
+
+.change-button { /*orange*/
+  background-color: #e27226;
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 5px 12px;;
+  width: 30%;
+  border: 2px solid #e27226; 
+}
+
+.yellow-button{
+  background-color: #fdc561;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px 14px;;
+  border: 2px solid #fdc561; 
+}
+
+.yellow-checkout-button{
+  background-color: #fdc561;
+  text-align: center;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 5px 14px;;
+  border: 2px solid #fdc561; 
+}
+
+.yellow-button-wide{
+  background-color: #fdc561;
+  color: black;
+  border-radius: 4px;
+  width: 60%;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px 14px;;
+  border: 2px solid #fdc561; 
+}
+
+.orange-button{
+  background-color: #e27226;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px 14px;;
+  border: 2px solid #e27226; 
+}
+
+.order-button{
+  float: right;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 3;
+  line-height: 18px;
+}
+
+.orange-button-outline{
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 30px;
+  padding: 3px 16px;;
+  border: 2px solid #e27226; 
+}
+
+.orange-rewards{
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 3px 16px;;
+  border: 2px solid #e27226; 
+}
+
+.solid-dark-blue-button{
+  background-color: #387ea5;
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #387ea5;
+}
+
+.solid-dark-blue-button-social{
+  background-color: #387ea5;
+  text-align: center;
+  width:50%;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 80px;
+  padding: 5px 12px;
+  border: 2px solid #387ea5;
+}
+.solid-light-blue-button{
+  background-color: #75b8e5;
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #75b8e5;
+}
+
+
+.solid-dark-blue-button-calendar{
+  background-color: #387ea5;
+  width: 90%;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #387ea5;
+}
+
+.solid-light-blue-button-calendar{
+  background-color: #75b8e5;
+  width: 90%;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #75b8e5;
+}
+
+.booking-button{
+  background-color: white;
+  width: 50%;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #75b8e5;
+}
+
+.solid-red-button{
+  background-color: #cc3630;
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #cc3630;
+}
+
+.pay{
+  background-color: #cc3630;
+  position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border: 2px solid #cc3630;
+}
+
+.next{
+  text-align: center;
+  margin:auto;
+  display: block;
+}
+
+
+.continue{
+  text-align: center;
+  margin:auto;
+  margin-top: 200px;
+  display: block;
+}
+
+.continue-original{
+  text-align: center;
+  margin:auto;
+  display: block;
+}
+
+.continue-2{
+  text-align: center;
+  margin:auto;
+  display: block;
+}
+
+.update-email-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
+}
+
+.update-password-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
+}
+
+.update-location-button{
+  text-align: center;
+  margin:auto;
+  margin-top: 90px;
+  display: block;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: -15px;
+}
+
+.edit-profile-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
+}
+
+/*follow/unfollow*/
+
+
+
+/*radio buttons*/
+
+.search-options {
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.radio{
+  text-align: center;
+}
+
+/*Fields*/
+.sign-in-username{
+  margin-top: 30px;
+  width: 90%;
+  height: 30px;
+}
+
+.sign-in-password{
+  margin-top: 30px;
+  width:90%;
+  height: 30px;
+}
+
+.standard-field{
+  margin-top: 30px;
+  width: 90%;
+  height: 30px;
+}
+
+.user{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.password{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-field{
+  margin-top: 220px;
+  width: 90%;
+  height: 30px;
+}
+
+.card-type{
+  margin-top: 25px;
+}
+
+
+textarea {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.status-box {
+  width: 300px;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.textarea-order {
+  width: 300px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/*dropdowns*/
 /*.container.dropdowns {
   margin: 80px auto;
   width: 400px;
@@ -1941,17 +1949,17 @@ a:visited {
 
   .truck-profile-icons{
     margin-left: -20px;
-    
+
   }
 
   .truck-profile-icon1{
-    
+
   }
 
   .truck-profile-icon2{
     margin-left: -140px;
     margin-top: 5px;
-    
+
   }
 
   .truck-profile-icon3{
