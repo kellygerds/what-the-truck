@@ -1719,10 +1719,10 @@ table.booking-day td.appoint {
 /*dashboard*/
 
 .dashboard-feed{
-    margin-top: 250px;
-    padding-left: 65px;
-    padding-right: 40px;
-    display: inline-block;
+  width: 260px;
+  margin: 0 auto;
+  position: relative;
+  top: 254px;
 
 }
 
