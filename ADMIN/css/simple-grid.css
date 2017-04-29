@@ -1723,6 +1723,7 @@ table.booking-day td.appoint {
   margin: 0 auto;
   position: relative;
   top: 254px;
+  text-align: center;
 
 }
 
@@ -1736,6 +1737,17 @@ table.booking-day td.appoint {
   background-color: none;
   display: block;
 }
+
+.dashboard-box img {
+    height: 71px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    text-align: center;
+    }
+
+.dashboard-box p {
+    line-height: 0.8px;
+    }
 
 
 .dash-1{
@@ -2449,5 +2461,10 @@ textarea {
 
 .dashboard-box p{
   font-size: 3vw;
+}
+
+.dashboard-box img {
+    height: 156px;
+    margin-top: 15px;
 }
 }
