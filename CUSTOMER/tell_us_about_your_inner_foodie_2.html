@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--global on all pages-->
+<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Luckiest+Guy" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="scripts/script.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+<!--global top-->
+<div class="container">
+
+<div class="sticky-top">
+		<div class="header-onboarding-2"><!--back arrow, logo, hamburger menu-->
+			<div class="row">
+				<div class="col-4-sm">
+				<!--back-->
+				<a href="#" onclick="history.go(-1)">
+					<img src="images/new_direction_arrow.png" class="back-arrow" alt="back" align="left" width="15" height="30">
+				</a>
+
+
+				</div>
+
+				<div class="col-4-sm">
+				<!--logo-->
+        <a href="index.html"><img src="images/tiny_icon.png" alt="back" align="center"></a>
+				</div>
+
+				<div class="col-4-sm">
+				<!--mobile menu-->
+				<a href="#" class="mobile-nav-toggle"><img src="images/hamburger_menu.png" alt="back" align="right" width="44" height="36"></a>
+					<div class="mobile-nav-wrapper">
+					<a href="#" class="mobile-nav-exit"><i class="fa fa-times" style="color:#387ea5"></i></a><br>
+						    <ul class="mobile-nav">
+                  <li><a href="profile.html"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
+                  <li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
+                  <li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
+                  <li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
+                  <li><a href="#"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
+		  					</ul>
+		  			</div>
+
+				</div>
+			</div><!--closes arrow, logo, hamburger-->
+
+		<div class="search">
+				<div class="row">
+					<div class="col-12">
+					<div class="wrap">
+   						<div class="search">
+      						<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
+      							<button type="submit" class="searchButton">
+        							<i class="fa fa-search"></i>
+     									</button>
+   						</div>
+					</div>
+					</div>
+				</div>
+		</div><!--closes search-->
+				<div class="page-title"><!--title on page-->
+				<h1-onboarding>TELL US ABOUT YOUR <br> INNER FOODIE</h1>
+				</div>
+
+		</div><!--closes entire global top-->
+
+
+
+
+
+
+</div><!--closes all sticky-->
+
+ 
+		<!--Page Feed-->
+			<div class="onboarding-2">
+				<br>
+				<div class="row"><!--first vendor-->
+					<div class="col-12-sm"><!--vendor logo-->
+						<h3-orange> What are your interests?</h3>
+					</div>				
+				</div>
+
+				<h5-onboarding> Select all that Apply </h5>
+
+				<div class="row"><!--checkboxes begin-->
+					<div class="col-12-sm">
+						<form action="checkboxes" class="checkboxes">
+						<input type="checkbox" name="interest1" value="Food Truck Festivals">Food Truck Festivals<br>
+						<input type="checkbox" name="interest2" value="Trucks @ Wineries/Breweries">Trucks @ Wineries/Breweries<br>
+						<input type="checkbox" name="interest3" value="Trucks @ Farmer's Markets">Trucks @ Farmer's Markets<br>
+						<input type="checkbox" name="interest4" value="Trucks on Street Corners">Trucks on Street Corners<br>
+						<input type="checkbox" name="interest5" value="Booking for Private Events">Booking for Private Events<br>
+						</form>
+
+					</div>
+
+				</div>
+
+				<br>
+
+
+				<div class="row">
+					<div class="col-12-sm">
+						<h4-onboarding>Please enter your ZipCode or <br>Turn on Your Location to get Started</h4-onboarding>
+					</div>
+				</div>
+
+				<div class="zipcode">
+      				<div class="row">
+        				<div class="col-12-sm">
+          					<input type="text" name="firstname" value="zipcode" class="zipcode-form">
+        				</div>
+      				</div> 		
+      			</div>	
+
+      			<!-- Rounded switch -->
+
+      			
+
+
+				
+				<br>
+
+				<div class="continue-original">
+	        		<div class="row">
+          				<div class="col-6-sm">
+            				<button type="button" class="yellow-button-wide"><a href="tell_us_about_your_inner_foodie.html">Back</a></button>
+          				</div>
+          				<div class="col-6-sm">
+            				<button type="button" class="orange-button"><a href="results_based_on_responses.html">Continue</a></button>
+          				</div>
+          			 </div>	
+      			</div>  
+
+    			</div>
+
+	<br>
+
+		</div><!--closes main page info-->
+
+
+
+
+</div><!--closes CONTAINER for entire page-->
+</body>
+</html>
