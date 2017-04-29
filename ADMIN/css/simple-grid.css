@@ -1047,7 +1047,7 @@ p-truck {
 }
 
 a {
-  text-decoration: none; /* no underline */
+  text-decoration: none;  /*no underline */
   color: black;
  }
 
@@ -1360,6 +1360,18 @@ table.booking-day td.appoint {
 
 /*Buttons*/
 
+button[class*="-button"] a{
+  color:white;
+
+}
+
+button[class*="-button secondary"] a{
+  color:black;
+
+}
+
+
+
 .sign-in-button {
     background-color: white;
     position: relative;
@@ -1447,6 +1459,11 @@ table.booking-day td.appoint {
     margin-top: 20px;
     padding: 5px 14px;;
     border: 2px solid #fdc561; 
+}
+
+.yellow-button a,
+.yellow-button-wide a {
+    color:black !important;
 }
 
 .yellow-checkout-button{
@@ -1746,7 +1763,7 @@ table.booking-day td.appoint {
     }
 
 .dashboard-box p {
-    line-height: 0.8px;
+    line-height: .25px;
     }
 
 
@@ -2460,7 +2477,8 @@ textarea {
 }
 
 .dashboard-box p{
-  font-size: 3vw;
+  font-size: 20px;
+  line-height: 16px;
 }
 
 .dashboard-box img {
