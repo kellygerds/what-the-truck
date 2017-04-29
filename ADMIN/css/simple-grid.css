@@ -1727,14 +1727,16 @@ table.booking-day td.appoint {
 }
 
 .dashboard-box {
-  margin: 10px ;
+  margin: auto;
+  margin-bottom: 10px;
   border: 3px solid #fdc561;
-  border-radius: 8px ;
-  width: 100px ;
-  height: 100px ;
-  background-color: none ;
-  display: inline-block;
+  border-radius: 8px;
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  display: block;
 }
+
 
 .dash-1{
     text-align: center;
@@ -2429,4 +2431,23 @@ textarea {
     width: 75%;
     max-width: 60rem;
   }*/
+}
+
+@media screen and (min-width: 768px){
+
+.dashboard-feed{
+  width: 560px;
+  text-align: center;
+}
+
+.dashboard-box{
+  width: 216px;
+  height:216px;
+  display: block:
+  margin:auto;
+}
+
+.dashboard-box p{
+  font-size: 3vw;
+}
 }
