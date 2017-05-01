@@ -1009,6 +1009,13 @@ h4-blue-food {
   text-align: left;
 }
 
+h4-blue-truck{
+  font-size: 16px;
+  color: #387ea5;
+  font-weight:;
+  text-align: right;
+}
+
 h5 {
   font-size: 14px;
   text-align: left;
@@ -1047,11 +1054,11 @@ p {
   line-height: 1.8;
 }
 
-p-truck {
+p-truck-profile {
+  margin-left: 30px;
   font-size: 14px;
   font-weight: 200;
-  text-align: left;
-  margin-left: 10px;
+  line-height: 1.8;
 }
 
 a {
@@ -2007,7 +2014,7 @@ textarea {
   }
 
   .truck-social-icons{
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .truck-social-icon1{
