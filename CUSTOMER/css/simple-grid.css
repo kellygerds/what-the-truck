@@ -312,7 +312,7 @@ body {
 /*mobile pay*/
 
 .pin{
-  margin-top: 200px;
+  margin-top: 240px;
 }
 
 .mobile-pay-main{
@@ -632,7 +632,6 @@ a:mobile-nav{
   .enter-pin{
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-top: 200px;
   }
 
   .enter-card{
@@ -1391,6 +1390,17 @@ table.booking-day td.appoint {
   outline:none;
 }
 
+.pin-button {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 200px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
+}
+
 .credit-card-button {
   background-color: white;
   color: black;
@@ -1752,6 +1762,14 @@ textarea {
   resize: none;
   margin: 0 auto;
   margin-top: 50px;
+}
+
+.outline {
+    border: 1px solid #387ea5;
+    width: 220px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
 }
 
 /*dropdowns*/
