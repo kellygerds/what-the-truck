@@ -367,6 +367,7 @@ body {
   background-repeat: no-repeat;   
 }
 
+
 /*HAMBURGER MENU*/
 .mobile-nav-wrapper{
   display: none;
@@ -424,6 +425,30 @@ a:mobile-nav{
     margin-right:20px;
 
   }
+
+    .uploaded-photo{
+    background-image: url('../images/selected_image.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 200px !important;
+    margin-top: 260px;
+    margin-left: 20px
+    margin-right:20px;
+
+  }
+
+  .postPhoto{
+  background-image: url('../images/phone_gallery.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.post{
+  text-align: center;
+  font-size: 0;
+}
 
   .profile{
     background-image: url('../images/profile_background.jpg');
@@ -867,8 +892,6 @@ input:checked + .slider:before {
 .main-name-search { margin-top: 10px }
 
 input {
-    font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 13px;
     color: #555860;
 }
 
@@ -1534,6 +1557,17 @@ table.booking-day td.appoint {
 
 /*Buttons*/
 
+
+button[class*="-button"] a{
+  color:white;
+
+}
+
+
+button[class*="-button secondary"] a{
+  color:black;
+
+}
 .sign-in-button {
   background-color: white;
   position: relative;
@@ -1569,6 +1603,17 @@ table.booking-day td.appoint {
 
 .order-button:focus{
   outline:none;
+}
+
+.enter {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
 }
 
 .pin-button {
@@ -1933,6 +1978,18 @@ textarea {
   margin-top: 50px;
 }
 
+.photo-box {
+  width: 300px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
 .textarea-order {
   width: 300px;
   height: 100px;
@@ -2145,6 +2202,7 @@ textarea {
   .social-feed {
     margin-top: 260px;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .truck-profile-page-bottom{
