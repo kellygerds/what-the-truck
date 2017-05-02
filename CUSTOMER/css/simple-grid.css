@@ -451,7 +451,7 @@ a:mobile-nav{
 }
 
   .applePay-photo{
-  background-image: url('../images/phone_gallery.png'); 
+  background-image: url('../images/apple_screen.jpg'); 
   background-size: cover;
   background-position: center;
   min-width: 380px;
@@ -459,6 +459,19 @@ a:mobile-nav{
 }
 
 .applePay{
+  text-align: center;
+  font-size: 0;
+}
+
+  .googlePay-photo{
+  background-image: url('../images/google_pay.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.googlePay{
   text-align: center;
   font-size: 0;
 }
