@@ -450,6 +450,19 @@ a:mobile-nav{
   font-size: 0;
 }
 
+  .applePay-photo{
+  background-image: url('../images/phone_gallery.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.applePay{
+  text-align: center;
+  font-size: 0;
+}
+
   .profile{
     background-image: url('../images/profile_background.jpg');
     background-position: center;
