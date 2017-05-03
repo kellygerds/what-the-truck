@@ -1283,6 +1283,7 @@ p-truck-profile {
   font-size: 14px;
   font-weight: 200;
   line-height: 1.8;
+  text-align: left;
 }
 
 a {
@@ -2241,6 +2242,8 @@ textarea {
   .truck-profile-page{
     margin-top: 200px;
     text-align: center;
+    margin-bottom: 40px;
+    height: 100%;
   }
 
   .truck-menu-page{
@@ -2273,14 +2276,24 @@ textarea {
 
   .truck-social-icons{
     margin-left: 30px;
+    margin-top: 5px;
+
   }
 
   .truck-social-icon1{
     padding-right: 10px;
+    margin-top: 20px;
   }
 
   .truck-social-icon2{
     padding-right: 10px;
+    margin-top: 20px;
+  }
+
+
+  .truck-social-icon3{
+    padding-right: 10px;
+    margin-top: 20px;
   }
 
   .truck-about{
