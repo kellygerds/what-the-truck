@@ -555,7 +555,8 @@ a:mobile-nav{
   .profile-picture {
     width: 120px;
     padding-top: 30px;
-    margin-left: 130px;
+    text-align: center;
+    margin-left: 33%;
   }
 
   /*booking info*/
@@ -1198,6 +1199,11 @@ h3 {
   font-size: 20px;
   color: #cc3630;
   font-weight: bold;
+}
+
+h3-white {
+  font-size: 20px;
+  color: #ffffff;
 }
 
 /*also used for hamburger text styles*/
