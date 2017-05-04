@@ -784,6 +784,7 @@ input {
 .enter-card{
   margin-top: 220px;
   margin-left: 30px;
+  padding-bottom: 50px;
 }
 
 
@@ -1667,6 +1668,16 @@ button[class*="-button secondary"] a{
     border: 2px solid #e27226; 
 }
 
+.orange-member-button{
+    background-color: #e27226;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding: 5px 14px;;
+    border: 2px solid #e27226; 
+}
+
 .orange-button-outline{
     background-color: white;
     color: black;
@@ -2236,6 +2247,7 @@ textarea {
   margin-top: 220px;
   margin-left: 15px;
   margin-right: 15px;
+  padding-bottom: 60px;
 }
 
 /*Vendor/Event logos/info*/
