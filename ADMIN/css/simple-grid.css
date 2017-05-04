@@ -1889,7 +1889,7 @@ button[class*="-button secondary"] a{
 .update-location-button{
   text-align: center;
   margin:auto;
-  margin-top: 90px;
+  margin-top: -20px;
   display: block;
 }
 
