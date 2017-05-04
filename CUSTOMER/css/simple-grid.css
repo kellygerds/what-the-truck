@@ -1240,6 +1240,7 @@ h4-blue-truck{
   text-align: right;
 }
 
+
 h5 {
   font-size: 14px;
   text-align: left;
@@ -2236,6 +2237,13 @@ textarea {
     margin-top: -30px;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .event-page-bottom{
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .truck-profile-page{
