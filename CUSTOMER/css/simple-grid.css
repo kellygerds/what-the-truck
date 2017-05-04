@@ -1693,7 +1693,7 @@ button[class*="-button secondary"] a{
   border: 2px solid #75b8e5; 
 }
 
-.order-button {
+.mobile-order-button {
   background-color: white;
   position: relative;
   color: black;
@@ -1704,7 +1704,7 @@ button[class*="-button secondary"] a{
   border: 2px solid #387ea5; 
 }
 
-.order-button:focus{
+.mobile-order-button:focus{
   outline:none;
 }
 
