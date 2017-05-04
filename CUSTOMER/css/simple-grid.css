@@ -445,6 +445,73 @@ a:mobile-nav{
   min-height: 700px !important; 
 }
 
+.twitter-truck{
+  text-align: center;
+  font-size: 0;
+}
+
+.twitterTruck{
+  background-image: url('../images/twitter_truck.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.insta-truck{
+  text-align: center;
+  font-size: 0;
+}
+
+.instaTruck{
+  background-image: url('../images/truck_insta.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.insta-event{
+  text-align: center;
+  font-size: 0;
+}
+
+.instaEvent{
+  background-image: url('../images/insta_event.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.twitter-event{
+  text-align: center;
+  font-size: 0;
+}
+
+.twitterEvent{
+  background-image: url('../images/twitter_event.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.facebook-event{
+  text-align: center;
+  font-size: 0;
+}
+
+.facebookEvent{
+  background-image: url('../images/facebook_event.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+
+
 .post{
   text-align: center;
   font-size: 0;
