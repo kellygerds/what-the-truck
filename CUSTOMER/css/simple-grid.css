@@ -2090,10 +2090,11 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-size: 16px;
+  color: #555860;
+  font-size: 14px;
   resize: none;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .status-box {
@@ -2422,6 +2423,7 @@ textarea {
 
   .truck-feed {
     margin-top: 20px;
+    margin-left: 20px;
   }
 
   .onboarding{
