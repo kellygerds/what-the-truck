@@ -22,6 +22,7 @@ jQuery(document).ready(function($) {
 
 });
 
+
 var main = function() {
 
   /* Ideas for additions:
