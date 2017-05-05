@@ -1,5 +1,5 @@
 # what-the-truck
-Thesis Project
+Thesis Project <br>
 -the homepages listed first will bring you right into the experience, the onboarding links listed second will allow you to go through the process of signing up for the app before getting to the homepages
 
 
