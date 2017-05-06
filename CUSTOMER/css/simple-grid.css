@@ -599,6 +599,15 @@ a:mobile-nav{
     margin-left: 120px;
   }
 
+  .menu-tops{
+    background-image: url('../images/street_sweets.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 140px !important;
+    margin-top: 200px;
+
+  }
+
   .booking-fineprint{
     text-align: center;
   }
@@ -1828,6 +1837,38 @@ button[class*="-button secondary"] a{
   line-height: 18px;
 }
 
+.order2-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 3;
+    line-height: 18px;
+}
+
+.top-menu-button {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 7px;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding: 5px 12px;
+    border: 2px solid #75b8e5;
+    margin-bottom: 40px;
+}
+
+.order-button-menu{
+  float: right;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 3;
+  line-height: 18px;
+}
+
 .orange-button-outline{
   background-color: white;
   color: black;
@@ -1884,6 +1925,17 @@ button[class*="-button secondary"] a{
 .solid-light-blue-button{
   background-color: #75b8e5;
   position: relative;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 40px;
+  padding: 5px 12px;
+  border: 2px solid #75b8e5;
+}
+
+.order-menu-button{
+  background-color: #75b8e5;
+  text-align: center;
   color: white;
   border-radius: 4px;
   font-size: 16px;
@@ -2351,6 +2403,11 @@ textarea {
   }
 
   .truck-menu-page{
+    margin-top: 10px;
+    text-align: left;
+  }
+
+   .truck-order-page{
     margin-top: 200px;
     text-align: left;
   }
@@ -2385,24 +2442,21 @@ textarea {
 
   .truck-social-icons{
     margin-left: 30px;
-    margin-top: 5px;
+    padding-bottom: 80px;
 
   }
 
   .truck-social-icon1{
     padding-right: 10px;
-    margin-top: 20px;
   }
 
   .truck-social-icon2{
     padding-right: 10px;
-    margin-top: 20px;
   }
 
 
   .truck-social-icon3{
     padding-right: 10px;
-    margin-top: 20px;
   }
 
   .truck-about{

@@ -22,7 +22,6 @@ jQuery(document).ready(function($) {
 
 });
 
-
 var main = function() {
 
   /* Ideas for additions:
@@ -61,6 +60,8 @@ var main = function() {
 }
 
 $(document).ready(main);
+
+
 
 
 
