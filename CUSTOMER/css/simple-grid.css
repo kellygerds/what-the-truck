@@ -704,6 +704,7 @@ a:mobile-nav{
   .conversation{
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 30px;
     height: 100%; /* Used in this example to enable scrolling */
     text-align: center;
     margin-top: 250px;
