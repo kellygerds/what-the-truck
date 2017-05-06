@@ -43,7 +43,7 @@
                                 <li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
                                 <li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
                                 <li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
-                                <li><a href="#"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
+                                <li><a href="sign_in.html"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
 		  					</ul>
 		  			</div>
 
@@ -57,7 +57,7 @@
    						<div class="search">
       						<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
       							<button type="submit" class="searchButton">
-        							<i class="fa fa-search"></i>
+        							<a href="refined_results.html"><i class="fa fa-search"></i></a>
      									</button>
    						</div>
 					</div>
@@ -85,10 +85,10 @@
             <h3-orange>Card Details</h3-orange>
     		</div>
    		 </div>
-
+         <form action="mobile_pay.html">
         <div class="row">
             <div class="col-7-sm textcenter">
-            <input type="text" name="username" value="card number" class="sign-in-password">
+            <input type="text" name="username" placeholder="card number" class="sign-in-password">
 
     		</div>
     		<div class="col-2-sm textcenter">
@@ -108,10 +108,10 @@
 
         <div class="row">
             <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="expiration date" class="sign-in-password">
+            	<input type="text" name="username" placeholder="expiration date" class="sign-in-password">
     		</div>
     		 <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="csc" class="sign-in-password">
+            	<input type="text" name="username" placeholder="csc" class="sign-in-password">
     		</div>
 
     	</div>
@@ -126,39 +126,40 @@
 
         <div class="row">
             <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="expiration date" class="sign-in-password">
+            	<input type="text" name="username" placeholder="first name" class="sign-in-password" required>
     		</div>
     		 <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="csc" class="sign-in-password">
+            	<input type="text" name="username" placeholder="last name" class="sign-in-password">
     		</div>
    		</div>
 
         <div class="row">
             <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="address" class="sign-in-password">
+            	<input type="text" name="username" placeholder="address" class="sign-in-password">
     		</div>
     		 <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="city" class="sign-in-password">
+            	<input type="text" name="username" placeholder="city" class="sign-in-password">
     		</div>
 
     	</div>
 
         <div class="row">
             <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="state" class="sign-in-password">
+            	<input type="text" name="username" placeholder="state" class="sign-in-password">
     		</div>
     		 <div class="col-6-sm textcenter">
-            	<input type="text" name="username" value="zipcode" class="sign-in-password">
+            	<input type="text" name="username" placeholder="zipcode" class="sign-in-password">
     		</div>
 
     	</div>
 
         <div class="row">
             <div class="col-12-sm textright">
-				<button type="button" class="credit-card-button secondary"><a href="sign_in.html">Submit</a></button>
+				<input type="submit" class="credit-card-button secondary"><a href="mobile_pay.html"></a>
     		</div>
 
     	</div>
+        </form>
 
 
 
@@ -174,11 +175,11 @@
   			<div class="row">
   				<div class="col-12">
     				<ul class="footer-nav-icons">
-    					<li><a href="#"><img src="images/home.png" alt="Home" width="40" height="34"></a></li>
-    					<li><a href="#"><img src="images/calendar.png" alt="Calendar" width="33" height="34"></a></li>
-    					<li><a href="#"><img src="images/mobile_orange.png" alt="Mobile Pay" width="17" height="35"></a></li>
-    					<li><a href="#"><img src="images/social.png" alt="Social" width="41" height="35"></a></li>
-    					<li><a href="#"><img src="images/rewards.png" alt="Rewards" width="53" height="35"></a></li>
+    					<li><a href="index.html"><img src="images/home.png" alt="Home" width="40" height="34"></a></li>
+    					<li><a href="calendar.html"><img src="images/calendar.png" alt="Calendar" width="33" height="34"></a></li>
+    					<li><a href="mobile_pay.html"><img src="images/mobile_orange.png" alt="Mobile Pay" width="17" height="35"></a></li>
+    					<li><a href="foodie_feed.html"><img src="images/social.png" alt="Social" width="41" height="35"></a></li>
+    					<li><a href="rewards.html"><img src="images/rewards.png" alt="Rewards" width="53" height="35"></a></li>
   					</ul>
   				</div>
   			</div>
