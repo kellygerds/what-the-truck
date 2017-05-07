@@ -695,7 +695,7 @@ input {
 .update-location{
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-top: 250px;
+  margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
   border-bottom: none;
@@ -1945,7 +1945,7 @@ button[class*="-button secondary"] a{
 .update-location-button{
   text-align: center;
   margin:auto;
-  margin-top: -20px;
+  margin-top: 180px;
   display: block;
 }
 
