@@ -938,6 +938,7 @@ input:checked + .slider:before {
   border-radius: 20px/50px;
   background-clip: padding-box;
   text-align: center;
+  text-decoration: none;
 }
 
 .pop-up-button {
