@@ -1348,6 +1348,7 @@ a:hover, a:active {
   display: block;
 }
 
+
 .order-buttons{
   margin-top: -20px;
   text-align: center;
@@ -1962,6 +1963,17 @@ button[class*="-button secondary"] a{
     font-size: 14px;
     margin-top: 10px;
     padding: 4px 10px;;
+    border: 2px solid #387ea5; 
+}
+
+.edit-calendar-button {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    color: black;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 3px 15px;;
     border: 2px solid #387ea5; 
 }
 
