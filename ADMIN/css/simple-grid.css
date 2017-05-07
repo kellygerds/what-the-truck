@@ -1563,6 +1563,17 @@ button[class*="-button secondary"] a{
     border: 2px solid #75b8e5; 
 }
 
+.upload-logo-button {
+    background-color: #75b8e5;
+    position: relative;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 12px;;
+    border: 2px solid #75b8e5; 
+}
+
 .booking-button {
     background-color: white;
     position: relative;
