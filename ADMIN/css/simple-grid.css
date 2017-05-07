@@ -662,12 +662,13 @@ input {
 }
 
 .edit-profile{
+  height: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-top: 250px;
-
   border-bottom: none;
   border-style: none;
+  padding-bottom: 30px;
 }
 
 .update-password{
@@ -1958,9 +1959,9 @@ button[class*="-button secondary"] a{
     position: relative;
     color: black;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
-    padding: 5px 12px;;
+    padding: 4px 10px;;
     border: 2px solid #387ea5; 
 }
 
