@@ -30,21 +30,21 @@
 
 				<div class="col-4-sm">
 				<!--logo-->
-					<img src="images/tiny_icon.png" alt="back" align="center">
+        <a href="index.html"><img src="images/tiny_icon.png" alt="back" align="center"></a>
 				</div>
 
 				<div class="col-4-sm">
 				<!--mobile menu-->
 				<a href="#" class="mobile-nav-toggle"><img src="images/hamburger_menu.png" alt="back" align="right" width="44" height="36"></a>
 					<div class="mobile-nav-wrapper">
-						<a href="#" class="mobile-nav-exit">Exit</a>
-						    <ul class="mobile-nav">
-		    					<li><a href="#">My Profile</a></li>
-		    					<li><a href="#">Refine Search</a></li>
-		    					<li><a href="#">Settings</a></li>
-		    					<li><a href="#">Notifications</a></li>
-		    					<li><a href="#">Log Out</a></li>
-		  					</ul>
+					<a href="#" class="mobile-nav-exit"><i class="fa fa-times" style="color:#387ea5"></i></a><br>
+							<ul class="mobile-nav">
+								<li><a href="#"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
+								<li><a href="#"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
+								<li><a href="#"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
+								<li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
+								<li><a href="admin_sign_in.html"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
+							</ul>
 		  			</div>
 
 				</div>
@@ -56,115 +56,119 @@
 					<div class="wrap">
    						<div class="search">
       						<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
-      							<button type="submit" class="searchButton">
-        							<i class="fa fa-search"></i>
-     									</button>
+								<button type="submit" class="searchButton">
+								<a href="refined_results.html"><i class="fa fa-search"></i></a>
+								</button>
    						</div>
 					</div>
 					</div>
 				</div>
 		</div><!--closes search-->
-				<div class="page-title"><!--title on page-->
-				<h1-onboarding>TELL US ABOUT YOUR <br> BUSINESS</h1>
+				<div class="page-title">
+					<h1>WHAT THE TRUCK?</h1><h1-brown> TELL US MORE!</h1-brown>
 				</div>
 
-		</div><!--closes entire global top-->
+			</div><!--closes entire global top-->
 
 
 
 
 
 
-</div><!--closes all sticky-->
+		</div><!--closes all sticky-->
 
- 
+
 		<!--Page Feed-->
-			<div class="onboarding-2">
-				<br>
-				<div class="row"><!--first vendor-->
-					<div class="col-12-sm"><!--vendor logo-->
-						<h3-orange> What kind of food <br> do you sell at your truck? </h3>
-					</div>	
+		<div class="onboarding-2">
+			<br>
+			<div class="row"><!--first vendor-->
+				<div class="col-12-sm"><!--vendor logo-->
+					<h3-orange> What kind of food <br> do you sell at your truck? </h3-orange>
+				</div>	
+			</div>
+
+			<br>
+			<div class="col-12-sm">
+				<div class="dropdown">
+					<select name="one" class="dropdown-select">
+						<option value="">Select</option>
+						<option value="1">Mexican</option>
+						<option value="2">Italian</option>
+						<option value="3">Cuban</option>
+						<option value="3">Asian</option>
+						<option value="3">Sweets/Desserts</option>
+						<option value="3">Healthy</option>
+						<option value="3">Vegan/Vegetarian</option>
+						<option value="3">American</option>
+						<option value="3">Smoothies</option>
+						<option value="3">Seafood</option>
+					</select>
 				</div>
+			</div>
 
-<br>
-					<div class="col-12-sm">
-	       				 <div class="dropdown">
-					    <select name="one" class="dropdown-select">
-					      <option value="">Select</option>
-					      <option value="1">Mexican</option>
-					      <option value="2">Italian</option>
-					      <option value="3">Cuban</option>
-					      <option value="3">Asian</option>
-					      <option value="3">Sweets/Desserts</option>
-					      <option value="3">Healthy</option>
-					      <option value="3">Vegan/Vegetarian</option>
-					      <option value="3">American</option>
-					      <option value="3">Smoothies</option>
-					      <option value="3">Seafood</option>
-					    </select>
-					    </div>
-					 </div>
 
-					 <br>
+			<div class="row">
+				<div class="col-12-sm"><!--vendor logo-->
+					<h3-orange> Where do you do most <br> of your business? </h3-orange>
+				</div>	
+			</div>		
 
+				<br>
 				<div class="row">
-					<div class="col-12-sm"><!--vendor logo-->
-						<h3-orange> Where do you do most <br> of your business? </h3>
-					</div>	
+				<div class="col-12-sm">
+					<div class="dropdown">
+						<select name="one" class="dropdown-select">
+							<option value="">Select</option>
+							<option value="1">Food Truck Festivals</option>
+							<option value="2">Wineries/Breweries</option>
+							<option value="3">Farmer's Markets</option>
+							<option value="3">Parked on Corners</option>
+							<option value="3">Parks/Areas in Town</option>
+							<option value="3">Private Events</option>
+							</select>
+						</div>
+					</div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-12-sm">
+							<h4-onboarding>Please enter your ZipCode or <br>Turn on Your Location to get Started</h4-onboarding>
+						</div>
+					</div>
+
+					<div class="row">
+					<div class="zipcode">
+						<div class="row">
+							<div class="col-12-sm"><br>
+								<input type="text" name="firstname" placeholder="zipcode" class="zipcode-form">
+							</div>
+
+						</div> 		
+					</div>
+					</div>
+
+					<div class="continue-original">
+						<div class="row">
+							<div class="col-6-sm">
+								<button type="button" class="yellow-button-wide"><a href="tell_us_about_your_inner_business2.html">Back</a></button>
+							</div>
+							<div class="col-6-sm">
+								<button type="button" class="orange-button"><a href="membership.html">Continue</a></button>
+							</div>
+						</div>	
+					</div>  
+
 				</div>
+
+				<br>
 				<br>
 
-				<div class="col-12-sm">
-	       				 <div class="dropdown">
-					    <select name="one" class="dropdown-select">
-					      <option value="">Select</option>
-					      <option value="1">Food Truck Festivals</option>
-					      <option value="2">Wineries/Breweries</option>
-					      <option value="3">Farmer's Markets</option>
-					      <option value="3">Parked on Corners</option>
-					      <option value="3">Parks/Areas in Town</option>
-					      <option value="3">Private Events</option>
-	
-					    </div>
-					 </div>
-
-
-	<br>
-					
-				</div>
-
-				<div class="row"><!--checkboxes begin-->
-					<div class="admin-checkboxes">
-						<div class="col-12-sm">
-							<form action="admin-checkboxes" class="admin-checkboxes">
-							<input type="checkbox" name="onboarding1" value="Bike">Available for private events<br>
-							<input type="checkbox" name="onboarding2" value="Car">Available for public events/festivals<br>
-							</form>
-						</div>	
-
-					</div>
-				
-				</div>
-
-				<div class="continue-2">
-	        		<div class="row">
-          				<div class="col-6-sm">
-            				<button type="button" class="yellow-button-wide"><a href="tell_us_about_your_business2.html">Back</a></button>
-          				</div>
-          				<div class="col-6-sm">
-            				<button type="button" class="orange-button"><a href="membership.html">Continue</a></button>
-          				</div>
-          			 </div>	
-      			</div>  
-
-    	
-
-		</div><!--closes main page info-->
+			</div><!--closes main page info-->
 
 
 
 
-</div><!--closes CONTAINER for entire page-->
-</body>
-</html>
+		</div><!--closes CONTAINER for entire page-->
+	</body>
+	</html>

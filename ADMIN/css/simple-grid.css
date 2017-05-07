@@ -54,6 +54,14 @@ body {
 
 }
 
+.default-admin-header{
+  background: #FDC561;
+  text-align: center;
+  height: 220px;
+  position: relative;
+
+}
+
 .header-onboarding-3{
   background: #FDC561;
   text-align: center;
@@ -636,9 +644,11 @@ input {
   margin-top: -20px;
 }
 
-.continue-onboarding{
-  margin-bottom: 10px;
+.linking-social{
+  text-align: left;
+  margin-left: 15px;
 }
+
 
 .favorite-logos{
   padding-top: 10px;
@@ -672,9 +682,10 @@ input {
 }
 
 .update-email{
+  height: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-top: 220px;
+  margin-top: 230px;
   margin-left: 20px;
   margin-right: 20px;
   border-bottom: none;
@@ -759,11 +770,11 @@ input {
 
 }
 
-.zipcode-form{
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: left;
-}
+  .zipcode-form{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+  }
 
 .sign-in-username{
   border: 1px solid #ccc;
@@ -786,7 +797,7 @@ input {
 }
 
 .enter-card{
-  margin-top: 220px;
+  margin-top: 250px;
   margin-left: 30px;
   padding-bottom: 50px;
 }
@@ -834,6 +845,14 @@ img{
   text-align: left;
   font-size: 18px;
 }
+
+.checkboxes-onboarding{
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
 
 /*Rounded Sliders*/
 
@@ -1876,10 +1895,16 @@ button[class*="-button secondary"] a{
   display: block;
 }
 
+.continue-3{
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+}
+
 .continue-onboarding{
   text-align: center;
-  margin:auto;
   display: block;
+  margin-top: -10px;
   padding-bottom: 30px;
 }
 
@@ -2263,7 +2288,7 @@ textarea {
 /*membership*/
 
 .membership{
-  margin-top: 220px;
+  margin-top: 250px;
   margin-left: 15px;
   margin-right: 15px;
   padding-bottom: 60px;
@@ -2379,7 +2404,7 @@ textarea {
 }
 
 .questions{
-  margin-top: 190px;
+  margin-top: 210px;
   height: 100%; /* Used in this example to enable scrolling */
   margin-left: 20px;
   text-align: center;

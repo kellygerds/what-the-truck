@@ -17,7 +17,7 @@
 <div class="container">
 
 <div class="sticky-top">
-		<div class="default-admin-header"><!--back arrow, logo, hamburger menu-->
+		<div class="header-onboarding-3"><!--back arrow, logo, hamburger menu-->
 			<div class="row">
 				<div class="col-4-sm">
 				<!--back-->
@@ -49,27 +49,26 @@
 
 				</div>
 			</div><!--closes arrow, logo, hamburger-->
-				<div class="search">
-					<div class="row">
-						<div class="col-12">
-							<div class="wrap">
-								<div class="search">
-									<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
-									<button type="submit" class="searchButton">
-										<a href="refined_results.html"><i class="fa fa-search"></i></a>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!--closes search-->
 
-				<div class="page-title">
-				<h1-brown> UPDATE EMAIL</h1-brown>
+		<div class="search">
+				<div class="row">
+					<div class="col-12">
+					<div class="wrap">
+   						<div class="search">
+      						<input type="text" class="searchTerm" placeholder="ssearch for nearby events..">
+								<button type="submit" class="searchButton">
+								<a href="refined_results.html"><i class="fa fa-search"></i></a>
+								</button>
+   						</div>
+					</div>
+					</div>
+				</div>
+		</div><!--closes search-->
+				<div class="page-title"><!--title on page-->
+				<h1-red>UPDATE EMAIL</h1>
 				</div>
 
-
-			</div><!--closes entire global top-->
+		</div><!--closes entire global top-->
 
 
 
@@ -78,49 +77,39 @@
 
 </div><!--closes all sticky-->
 
- 
-		<!--Page Feed-->
-    <div class="update-email">
-      <div class="row"> 
-	        <div class="col-12-sm">
-	        <h3-orange> Current Email </h3> 
-	        <input type="text" name="email" value="" class="sign-in-password">
-	        </div>
-
-      </div>
-      <br>
-
-      <div class="row"> 
-        <div class="col-12-sm">
-             <h3-orange> New Email </h3> 
-            <input type="text" name="email" value="" class="sign-in-password">
-        </div>
-      </div>
-      <br>
-
-     <div class="row"> 
-        <div class="col-12-sm">
-             <h3-orange> Confirm New Email </h3> 
-            <input type="text" name="email" value="" class="sign-in-password">
-        </div>
-      </div> 
-
-</div>
-
-
- 
-     <div class="continue-2">
-        <div class="row">
-          <div class="col-12">
-            <button type="button" class="update-email-button secondary"><a href="">Update</a></button>
-          </div>
-      </div>
-    </div>
 
 
 
 
-		</div><!--closes main page info-->
+
+<div class="page-feed-basic">
+				<div class="page-title">
+				<h1-red>HOW WOULD YOU LIKE TO REFINE YOUR SEARCH RESULTS?</h1>
+				</div>
+
+			<div class="revised-search">
+				<div class="row">
+					<div class="col-12-sm">
+         				 <input type="text" name="firstname" placeholder="refine by zip, city, type of food, or venue" class="sign-in-username">
+        			</div>
+        		</div>
+
+        		<form action="search-options" class="search-options">
+  					<input type="radio" name="option1" value="1"> Show me trucks even if they are currently closed<br><br>
+  					<input type="radio" name="option2" value="2"> Show me suggestions based on recent<br> check-ins<br><br>
+  					<input type="radio" name="option3" value="3"> Show me only trucks with 5 star ratings
+				</form>
+
+
+			</div><!--closes revised search-->
+
+			<div class="submit-button">
+			     <div class="col-12-sm textcenter">
+        			<a href="refined_results.html"><button type="button" class="solid-dark-blue-button">Search</button></a>
+      			</div>
+      		</div>	
+
+      				</div><!--closes main page info-->
 
 		<!--bottom nav-->
 <div class="footer">
