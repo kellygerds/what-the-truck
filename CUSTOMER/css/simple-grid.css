@@ -523,6 +523,19 @@ a:mobile-nav{
   min-height: 700px !important; 
 }
 
+.facebook-truck{
+  text-align: center;
+  font-size: 0;
+}
+
+.facebookTruck{
+  background-image: url('../images/facebook_truck.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
 
 
 .post{
