@@ -1102,6 +1102,12 @@ h3 {
   font-weight: bold;
 }
 
+h3-white {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
 /*also used for hamburger text styles*/
 
 h3-orange {
