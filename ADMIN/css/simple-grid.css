@@ -1731,6 +1731,16 @@ button[class*="-button secondary"] a{
     border: 2px solid #e27226; 
 }
 
+.orange-follow{
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 3px 16px;;
+  border: 2px solid #e27226; 
+}
+
 .orange-member-button{
     background-color: #e27226;
     color: white;
@@ -2383,6 +2393,8 @@ textarea {
 .social-feed {
   margin-top: 260px;
   text-align: center;
+  padding-bottom: 30px;
+  height: 100%;
 }
 
 .truck-profile-page-bottom{
