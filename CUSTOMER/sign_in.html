@@ -38,7 +38,7 @@
          <img src="images/user.png" width="32" class="user">
         </div>
         <div class="col-9-sm">
-          <input type="text" name="username" value="username" class="sign-in-username"><br>
+          <input type="email" name="username" placeholder="username" class="sign-in-username"><br>
         </div>
       </div> 
       <div class="row"> 
@@ -46,7 +46,7 @@
           <img src="images/password.png" width="32" class="password">
         </div>
         <div class="col-9-sm">
-          <input type="text" name="password" value="password" class="sign-in-password">
+          <input type="password" name="password" placeholder="password" class="sign-in-password">
         </div>
       </div>
 
@@ -63,7 +63,20 @@
     <br>
 
     <div class="password-text">
-      <h6> Forgot Your Password?</h6>
+                  <div class="pop-up-box"><!--one-->
+                <a class="pop-up-button" href="#popup3"><h6> Forgot Your Password?</h6></a>
+              </div>
+
+              <div id="popup3" class="overlay">
+                <div class="popup">
+                  <div class="content">
+                    A reset link has been sent <br> to your What the Truck? <br> email on file
+                  </div>
+                  <a class="close" href="#">&times;</a>
+
+                </div>
+              </div>
+   
     </div>
 
 
