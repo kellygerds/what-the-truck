@@ -750,6 +750,12 @@ a:mobile-nav{
     margin-right: 20px;
   }
 
+    .new-testimonial-button{
+    padding-bottom: 20px;
+    position: absolute;
+    z-index: 100;
+  }
+
   /*Sign in*/
   .sign-in{
     margin-top: 40px;
