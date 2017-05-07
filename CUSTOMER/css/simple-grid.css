@@ -746,15 +746,16 @@ a:mobile-nav{
 
 
   .new-message-button{
-    margin-bottom: 50px;
-    position: fixed;
-    margin-right: 5px;
-    z-index: 100;
+    padding-bottom: 20px;
+    margin-right: 20px;
   }
 
     .new-testimonial-button{
-    padding-bottom: 20px;
-  }
+    bottom:  50px; 
+    position: fixed; 
+    right: 5px; 
+    z-index:100; 
+    }
 
   /*Sign in*/
   .sign-in{
