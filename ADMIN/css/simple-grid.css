@@ -636,6 +636,10 @@ input {
   margin-top: -20px;
 }
 
+.continue-onboarding{
+  margin-bottom: 10px;
+}
+
 .favorite-logos{
   padding-top: 10px;
   margin-top: 20px;
@@ -1055,6 +1059,9 @@ h1-rewards {
 
 h2 {
   font-size: 22px;
+  color: #387ea5;
+  text-align: center;
+
 }
 
 h3 {
@@ -1568,9 +1575,9 @@ button[class*="-button secondary"] a{
     position: relative;
     color: white;
     border-radius: 4px;
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 5px 12px;;
+    font-size: 14px;
+    margin-top: 60px;
+    padding: 3px 10px;;
     border: 2px solid #75b8e5; 
 }
 
@@ -1873,6 +1880,7 @@ button[class*="-button secondary"] a{
   text-align: center;
   margin:auto;
   display: block;
+  padding-bottom: 30px;
 }
 
 .update-email-button {
@@ -2366,7 +2374,7 @@ textarea {
 .onboarding-2{
   margin-top: 230px;
   height: 100%; /* Used in this example to enable scrolling */
-  margin-left: 20px;
+  margin-left: 10px;
   text-align: center;
 }
 
