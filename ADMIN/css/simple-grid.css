@@ -664,9 +664,8 @@ input {
 .edit-profile{
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-top: 220px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 250px;
+
   border-bottom: none;
   border-style: none;
 }
@@ -1596,8 +1595,19 @@ button[class*="-button secondary"] a{
     color: white;
     border-radius: 4px;
     font-size: 14px;
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 3px 10px;;
+    border: 2px solid #75b8e5; 
+}
+
+.upload-logo2-button {
+    background-color: white;
+    position: relative;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 3px 9px;;
     border: 2px solid #75b8e5; 
 }
 
