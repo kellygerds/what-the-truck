@@ -300,6 +300,19 @@ body {
   border-bottom: 1px solid #fdc561;
 }
 
+.food-nav-list li.current{
+  background: #fdc561;
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 16px;
+  height: 30px;
+  padding-top: 5px;
+  border-right: 1px solid #fdc561;
+  border-left: 1px solid #fdc561;
+  border-top: 1px solid #fdc561;
+  border-bottom: 1px solid #fdc561;
+}
+
 
 .food-nav-list a {
     color: #cc3630;
@@ -1966,6 +1979,28 @@ button[class*="-button secondary"] a{
     border: 2px solid #387ea5; 
 }
 
+.edit-menu-button {
+    background-color: white;
+    position: relative;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 1px 11px;;
+    border: 2px solid #387ea5; 
+}
+
+.edit-menu2-button {
+    background-color: white;
+    position: relative;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 1px 11px;;
+    border: 2px solid #cc3630; 
+}
+
 .edit-calendar-button {
     background-color: white;
     text-align: center;
@@ -2362,7 +2397,7 @@ textarea {
 }
 
 .truck-menu-page{
-  margin-top: 200px;
+  margin-top: 240px;
   text-align: left;
 }
 
@@ -2405,6 +2440,12 @@ textarea {
 .page-feed-basic {
   text-align: center;
   margin-top: 220px;
+  height: 100%;
+}
+
+.page-search {
+  text-align: center;
+  margin-top: 250px;
   height: 100%;
 }
 
