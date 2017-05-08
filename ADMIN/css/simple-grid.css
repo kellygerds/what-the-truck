@@ -960,20 +960,6 @@ input {
   text-align: right;
 }
 
- .truck-profile-page-bottom{
-    text-align: center;
-    margin-top: -30px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-
-  .truck-profile-page{
-    margin-top: 200px;
-    text-align: center;
-    margin-bottom: 40px;
-    height: 100%;
-  }
 
     .blue-background{
     background-color: #387ea5;
@@ -981,53 +967,6 @@ input {
   }
 
 
-  .truck-profile-icons{
-    margin-left: -20px;
-
-  }
-
-  .truck-profile-icon1{
-
-  }
-
-  .truck-profile-icon2{
-    margin-left: -140px;
-    margin-top: 5px;
-
-  }
-
-  .truck-profile-icon3{
-    margin-left: -140px;
-    margin-top: 8px;
-  }
-
-   .truck-profile-icon4{
-    margin-right: 50px;
-    margin-top: 2px;
-  }
-
-  .truck-social-icons{
-    margin-left: 30px;
-    padding-bottom: 80px;
-
-  }
-
-  .truck-social-icon1{
-    padding-right: 10px;
-  }
-
-  .truck-social-icon2{
-    padding-right: 10px;
-  }
-
-
-  .truck-social-icon3{
-    padding-right: 10px;
-  }
-
-  .truck-about{
-    text-align: left;
-  }
 
 .calendar-import{
   margin-top: -30px;
