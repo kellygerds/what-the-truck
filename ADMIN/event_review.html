@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--global on all pages-->
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Luckiest+Guy" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+	<script src="scripts/script.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+	<!--global top-->
+	<div class="container">
+
+		<div class="sticky-top">
+			<div class="header-onboarding-2"><!--back arrow, logo, hamburger menu-->
+				<div class="row">
+					<div class="col-4-sm">
+						<!--back-->
+						<a href="#" onclick="history.go(-1)">
+							<img src="images/new_direction_arrow.png" class="back-arrow" alt="back" align="left" width="15" height="30">
+						</a>
+
+					</div>
+
+					<div class="col-4-sm">
+						<!--logo-->
+						<img src="images/tiny_icon.png" alt="back" align="center">
+					</div>
+
+					<div class="col-4-sm">
+						<!--mobile menu-->
+						<a href="#" class="mobile-nav-toggle"><img src="images/hamburger_menu.png" alt="back" align="right" width="44" height="36"></a>
+						<div class="mobile-nav-wrapper">
+							<a href="#" class="mobile-nav-exit"><i class="fa fa-times" style="color:#387ea5"></i></a><br>
+							<ul class="mobile-nav">
+
+								<ul class="mobile-nav">
+									<li><a href="truck_profile.html"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
+									<li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
+									<li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
+									<li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
+									<li><a href="admin_sign_in"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div><!--closes arrow, logo, hamburger-->
+
+					<div class="search">
+						<div class="row">
+							<div class="col-12">
+								<div class="wrap">
+									<div class="search">
+										<input type="text" class="searchTerm" placeholder="search for nearby  events..">
+										<button type="submit" class="searchButton">
+											<a href="refined_results.html"><i class="fa fa-search"></i></a>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!--closes search-->
+
+					<div class="page-title">
+						<h1>WHAT THE TRUCK?</h1><h1-brown> EVENT FEEDBACK</h1-brown>
+					</div>
+
+				</div><!--closes entire global top-->
+
+
+				<nav class="social-nav">
+					<div class="row">
+						<div class="col-12">
+							<ul class="social-nav-list">
+								<li><a href="foodie_feed.html">Feed</a></li>
+								<li><a href="create_post.html">Create Post</a></li>
+								<li><a href="foodie_friends.html">Friends</a></li>
+								<li  class="current"><a href="testimonials.html">Reviews</a></li>
+								<li><a href="messaging.html">Messages</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+
+
+			</div><!--closes all sticky-->
+
+
+			<!--Page Feed-->
+			<div class="event-review textcenter">
+
+				<h4-calendar-options> <strong>Vendor feedback is key to improving events sponsored within What the Truck? </strong></h4-calendar-options><br><br>
+				<h5-onboarding> Please fill out the following form </h5-onboarding>	
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="NAME of the event" class="sign-in-password" >
+
+					</div>
+
+				</div>
+				<br>
+
+				<div class="row">
+					<div class="col-12-sm"><!--vendor logo-->
+						<h5-onboarding> <strong>What state was the event located?</strong> </h5-onboarding>
+					</div>	
+				</div>
+
+				<div class="col-12-sm">
+					<div class="dropdown">
+						<select name="one" class="dropdown-select">
+
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District Of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>	
+
+						</select>
+					</div>
+				</div>		
+
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="COUNTY of event" class="sign-in-password" >
+
+					</div>
+
+				</div>	
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="TOWN of event" class="sign-in-password" >
+
+					</div>
+
+				</div>
+
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="PROMOTER of event" class="sign-in-password" >
+
+					</div>
+
+				</div>
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="YEAR of event" class="sign-in-password" >
+
+					</div>
+
+				</div>	
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="FEE for vendors to participate" class="sign-in-password" >
+
+					</div>
+
+				</div>		
+
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="list PERMITS needed to attend" class="sign-in-password" >
+
+					</div>
+
+				</div>
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<input type="text" name="username" placeholder="would you ATTEND this event again?" class="sign-in-password" >
+
+					</div>
+
+				</div>	
+
+				<div class="row">            
+					<div class="col-12-sm textcenter">
+						<textarea placeholder="leave any additional comments below" ></textarea> 
+					</div>
+
+				</div>
+
+				<div class="row">
+						<div class="col-12-sm">
+							<input type="submit" class="booking-button secondary"><a href="view_menu.html"></a>
+						</div>
+
+					</div>	
+				<br>
+				<br>		
+
+			</div>
+
+
+
+
+		</div><!--closes main page info-->
+
+		<div class="footer">
+			<nav class="footer-nav">
+				<div class="row">
+					<div class="col-12">
+						<ul class="footer-nav-icons">
+							<li><a href="dashboard.html"><img src="images/admin_home.png" alt="Home" width="40" height="34"></a></li>
+							<li><a href="calendar.html"><img src="images/calendar_orange.png" alt="Calendar" width="33" height="34"></a></li>
+							<li><a href="rewards.html"><img src="images/orange_rewards.png" alt="Rewards" width="53" height="35"></a></li>
+							<li><a href="foodie_feed.html"><img src="images/orange_social.png" alt="Social" width="38" height="32"></a></li>
+							<li><a href="orders_pending_pickup.html"><img src="images/mobile_orders_admin.png" alt="Mobile Orders" width="33" height="35"></a></li>
+							<li><a href="view_menu.html"><img src="images/edit_menu.png" alt="Edit Menu" width="26" height=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div><!--closes footer-->
+
+
+
+
+
+	</div><!--closes CONTAINER for entire page-->
+</body>
+</html>
