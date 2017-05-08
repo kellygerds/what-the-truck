@@ -660,6 +660,7 @@ input {
 .linking-social{
   text-align: left;
   margin-left: 15px;
+  margin-top: -25px;
 }
 
 
@@ -743,7 +744,7 @@ input {
   margin-right: 5px;
   height: 100%; /* Used in this example to enable scrolling */
   text-align: center;
-  margin-top: 250px;
+  margin-top: 270px;
 }
 
 .conversation{
@@ -764,9 +765,341 @@ input {
 
 
 .new-message-button{
-  padding-bottom: 20px;
-  margin-right: 20px;
+  margin-top: -50px;
+  margin-right: 25px;
 }
+
+ .truck-profile-page-bottom{
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .truck-profile-page{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    height: 100%;
+  }
+
+    .blue-background{
+    background-color: #387ea5;
+    width: 100%;
+  }
+
+
+  .truck-profile-icons{
+    margin-left: -20px;
+
+  }
+
+  .truck-profile-icon1{
+
+  }
+
+  .truck-profile-icon2{
+    margin-left: -140px;
+    margin-top: 5px;
+
+  }
+
+  .truck-profile-icon3{
+    margin-left: -140px;
+    margin-top: 8px;
+  }
+
+   .truck-profile-icon4{
+    margin-right: 50px;
+    margin-top: 2px;
+  }
+
+  .truck-social-icons{
+    margin-left: 30px;
+    padding-bottom: 80px;
+
+  }
+
+  .truck-social-icon1{
+    padding-right: 10px;
+  }
+
+  .truck-social-icon2{
+    padding-right: 10px;
+  }
+
+
+  .truck-social-icon3{
+    padding-right: 10px;
+  }
+
+  .truck-about{
+    text-align: left;
+  }
+
+.calendar-import{
+  margin-top: -30px;
+}
+
+  /*pop up box*/
+.pop-up-box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.pop-up-button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.pop-up-button:hover {
+  background: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 4;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  margin-top:250px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+/*search/new message*/
+
+.container, .main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.main-name-search { margin-top: 10px }
+
+input {
+    color: #555860;
+}
+
+.search-name {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.search-name input {
+    height: 26px;
+    width: 100%;
+    padding: 0 12px 0 25px;
+    background: white url("http://cssdeck.com/uploads/media/items/5/5JuDgOa.png") 8px 6px no-repeat;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a8acbc #babdcc #c0c3d2;
+    border-radius: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+    -moz-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+    -ms-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+    -o-box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+    box-shadow: inset 0 1px #e5e7ed, 0 1px 0 #fcfcfc;
+}
+
+.search-name input:focus {
+    outline: none;
+    border-color: #66b1ee;
+    -webkit-box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+    -moz-box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+    -ms-box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+    -o-box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+    box-shadow: 0 0 2px rgba(85, 168, 236, 0.9);
+}
+
+.search-name input:focus + .results { display: block }
+
+.search-name .results {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cbcfe2 #c8cee7 #c4c7d7;
+    border-radius: 3px;
+    background-color: #fdfdfd;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fdfdfd), color-stop(100%, #eceef4));
+    background-image: -webkit-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: -moz-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: -ms-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: -o-linear-gradient(top, #fdfdfd, #eceef4);
+    background-image: linear-gradient(top, #fdfdfd, #eceef4);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-name .results li { display: block }
+
+.search-name .results li:first-child { margin-top: -1px }
+
+.search-name .results li:first-child:before, .search .results li:first-child:after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px outset transparent;
+}
+
+.search-name .results li:first-child:before {
+    border-bottom: 5px solid #c4c7d7;
+    top: -11px;
+}
+
+.search-name .results li:first-child:after {
+    border-bottom: 5px solid #fdfdfd;
+    top: -10px;
+}
+
+.search-name .results li:first-child:hover:before, .search .results li:first-child:hover:after { display: none }
+
+.search-name .results li:last-child { margin-bottom: -1px }
+
+.search-name .results a {
+    display: block;
+    position: relative;
+    margin: 0 -1px;
+    padding: 6px 40px 6px 10px;
+    color: #808394;
+    font-weight: 500;
+    text-shadow: 0 1px #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.search-name .results a span { font-weight: 200 }
+
+.search-name .results a:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -9px;
+    background: url("http://cssdeck.com/uploads/media/items/7/7BNkBjd.png") 0 0 no-repeat;
+}
+
+.search-name .results a:hover {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
+    border-color: #2380dd #2179d5 #1a60aa;
+    background-color: #338cdf;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #59aaf4), color-stop(100%, #338cdf));
+    background-image: -webkit-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: -moz-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: -ms-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: -o-linear-gradient(top, #59aaf4, #338cdf);
+    background-image: linear-gradient(top, #59aaf4, #338cdf);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.2), 0 1px rgba(0, 0, 0, 0.08);
+}
+
+:-moz-placeholder {
+    color: #a7aabc;
+    font-weight: 200;
+}
+
+::-webkit-input-placeholder {
+    color: #a7aabc;
+    font-weight: 200;
+}
+
+.lt-ie9 .search-name input { line-height: 26px }
+
+/*end here*/
+
+.header-onboarding-3{
+  background: #FDC561;
+  text-align: center;
+  height: 210px;
+  position: relative;
+
+}
+
+/*end of pop up*/
 
 /*Sign in*/
 .sign-in{
@@ -1355,10 +1688,18 @@ a:hover, a:active {
   margin-left: 20px;
   padding-top: 20px;
 }
+.calendar{
+  height: 100%;
+}
 
 .calendar-bottom-date{
   padding-top: 20px;
   margin-top: -10px;
+}
+
+.calendar-bottom-date-1{
+  padding-top: 20px;
+  margin-top: -50px;
 }
 
 .calendar-buttons{
