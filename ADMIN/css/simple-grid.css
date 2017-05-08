@@ -1663,9 +1663,10 @@ a:hover, a:active {
 /*Calendar Stuff*/
 
 .daily-calendar-top{
+  height: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-top: 220px;
+  margin-top: 260px;
   margin-left: 20px;
   margin-right: 20px;
   border-bottom: none;
