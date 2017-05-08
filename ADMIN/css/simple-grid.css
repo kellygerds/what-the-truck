@@ -663,18 +663,6 @@ input {
   margin-top: -25px;
 }
 
-
-.favorite-logos{
-  padding-top: 10px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.bio{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .edit-profile{
   height: 100%;
   border: 1px solid #ccc;
@@ -737,6 +725,234 @@ input {
   margin-top: 20px;
 }
 
+.social-status{
+    background-image: url('../images/create_post.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 200px !important;
+    margin-top: 260px;
+    margin-left: 20px
+    margin-right:20px;
+
+  }
+
+    .uploaded-photo{
+    background-image: url('../images/selected_image.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 200px !important;
+    margin-top: 260px;
+    margin-left: 20px
+    margin-right:20px;
+
+  }
+
+  .postPhoto{
+  background-image: url('../images/phone_gallery.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.twitter-truck{
+  text-align: center;
+  font-size: 0;
+}
+
+.twitterTruck{
+  background-image: url('../images/twitter_truck.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.insta-truck{
+  text-align: center;
+  font-size: 0;
+}
+
+.instaTruck{
+  background-image: url('../images/truck_insta.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.insta-event{
+  text-align: center;
+  font-size: 0;
+}
+
+.instaEvent{
+  background-image: url('../images/insta_event.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.twitter-event{
+  text-align: center;
+  font-size: 0;
+}
+
+.twitterEvent{
+  background-image: url('../images/twitter_event.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.facebook-event{
+  text-align: center;
+  font-size: 0;
+}
+
+.facebookEvent{
+  background-image: url('../images/facebook_event.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.facebook-truck{
+  text-align: center;
+  font-size: 0;
+}
+
+.facebookTruck{
+  background-image: url('../images/facebook_truck.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+
+
+.post{
+  text-align: center;
+  font-size: 0;
+}
+
+  .applePay-photo{
+  background-image: url('../images/apple_screen.jpg'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.applePay{
+  text-align: center;
+  font-size: 0;
+}
+
+  .googlePay-photo{
+  background-image: url('../images/google_pay.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 380px;
+  min-height: 700px !important; 
+}
+
+.googlePay{
+  text-align: center;
+  font-size: 0;
+}
+
+  .profile{
+    background-image: url('../images/profile_background.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 200px !important;
+    margin-top: 200px;
+
+  }
+
+  .profile-picture {
+    width: 120px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 33%;
+  }
+
+  /*booking info*/
+
+  .booking{
+    background-image: url('../images/bites1.jpeg');
+    background-position: center;
+    background-size: cover;
+    min-height: 150px !important;
+    margin-top: 200px;
+
+  }
+
+  .booking-logo {
+    width: 150px;
+    padding-top: 50px;
+    margin-left: 120px;
+  }
+
+  .booking-page{
+    width: 80%;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+
+  .booking-2{
+    background-image: url('../images/bites1.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100px !important;
+    margin-top: 200px;
+
+  }
+
+  .booking-logo-2 {
+    width: 130px;
+    padding-top: 50px;
+    margin-left: 120px;
+  }
+
+  .menu-tops{
+    background-image: url('../images/street_sweets.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 140px !important;
+    margin-top: 200px;
+
+  }
+
+  .booking-fineprint{
+    text-align: center;
+  }
+
+  .continue-booking{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -20px;
+  }
+
+  .favorite-logos{
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .bio{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
 /*messages*/
 
 .message-threads{
@@ -752,7 +968,7 @@ input {
   margin-right: 10px;
   height: 100%; /* Used in this example to enable scrolling */
   text-align: center;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 .conversation-field{
@@ -1660,6 +1876,17 @@ a:hover, a:active {
   margin-top: 40px;
 }
 
+.enter {
+  background-color: white;
+  position: relative;
+  color: black;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 5px 12px;;
+  border: 2px solid #387ea5; 
+}
+
 /*Calendar Stuff*/
 
 .daily-calendar-top{
@@ -2511,39 +2738,60 @@ button[class*="-button secondary"] a{
 
 
 textarea {
-    width: 300px;
-    height: 200px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-    margin: 0 auto;
-    margin-top: 50px;
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  color: #555860;
+  font-size: 14px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
 .status-box {
-    width: 300px;
-    height: 100px;
-    border: 2px solid #fff;
-    border-radius: 4px;
-    background-color: #fff;
-    font-size: 16px;
-    resize: none;
-    margin: 0 auto;
-    margin-top: 50px;
+  width: 300px;
+  height: 100px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.photo-box {
+  width: 300px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
 .textarea-order {
-    width: 300px;
+  width: 300px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.outline {
+    border: 1px solid #387ea5;
+    width: 220px;
     height: 100px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-    margin: 0 auto;
-    margin-top: 50px;
+    text-align: center;
+    margin: auto;
 }
 
 /*dropdowns*/
@@ -2739,7 +2987,7 @@ textarea {
 }
 
 .social-feed {
-  margin-top: 260px;
+  margin-top: 290px;
   text-align: center;
   padding-bottom: 30px;
   height: 100%;
