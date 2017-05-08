@@ -607,45 +607,7 @@ input {
   margin-left: 130px;
 }
 
-/*booking info*/
 
-.booking{
-  background-image: url('../images/bites1.jpeg');
-  background-position: center;
-  background-size: cover;
-  min-height: 150px !important;
-  margin-top: 200px;
-
-}
-
-.booking-logo {
-  width: 150px;
-  padding-top: 50px;
-  margin-left: 120px;
-}
-
-.booking-page{
-  width: 80%;
-  text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-
-.booking-2{
-  background-image: url('../images/bites1.jpeg');
-  background-position: center;
-  background-size: cover;
-  height: 100px !important;
-  margin-top: 200px;
-
-}
-
-.booking-logo-2 {
-  width: 130px;
-  padding-top: 50px;
-  margin-left: 120px;
-}
 
 .booking-fineprint{
   text-align: center;
@@ -884,6 +846,10 @@ input {
 
   /*booking info*/
 
+  .link-to-booking{
+    margin-top: 250px;
+  }
+
   .booking{
     background-image: url('../images/bites1.jpeg');
     background-position: center;
@@ -901,6 +867,7 @@ input {
 
   .booking-page{
     width: 80%;
+    margin-top: 30px;
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
@@ -1970,7 +1937,7 @@ a:hover, a:active {
   background: #e4e0e7;
   height: 260px;
   margin: 20px auto;
-  margin-top: 250px;
+  margin-top: 10px;
   position: relative;
   text-align: center;
   width: 316px;
@@ -2134,7 +2101,8 @@ table.booking-day td.appoint {
 /*notifications*/
 
 .notifications{
-  margin-top: 230px;
+  margin-top: 250px;
+  height: 100%;
 }
 
 .rewards-handout{
