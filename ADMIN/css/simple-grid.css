@@ -595,6 +595,21 @@ input {
 
 }
 
+
+.mobile-scan{
+  text-align: center;
+  font-size: 0;
+}
+
+.mobileScan{
+  background-image: url('../images/pay_scan.png'); 
+  background-size: cover;
+  background-position: center;
+  min-width: 350px;
+  min-height: 700px !important; 
+}
+
+
 .profile{
   background-image: url('../images/profile_background.jpg');
   background-position: center;
