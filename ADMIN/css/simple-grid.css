@@ -2498,6 +2498,27 @@ button[class*="-button secondary"] a{
 }
 
 /*follow/unfollow*/
+button{
+  width:90px;
+  height:40px;
+}
+
+.orange-button .msg-follow {
+  display: inline;
+}
+
+.orange-button .msg-unfollow {
+  display: none;
+}
+
+
+.unfollow .msg-follow {
+  display: none;
+}
+
+.unfollow .msg-unfollow {
+  display: inline;
+}
 
 
 /*dashboard*/
