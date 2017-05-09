@@ -2487,7 +2487,6 @@ button[class*="-button secondary"] a{
     font-size: 12px;
     margin-top: -15px;
     margin-left: 10px;
-    padding: 3px 12px;
     border: 2px solid #387ea5; 
 }
 .edit-menu-button {
