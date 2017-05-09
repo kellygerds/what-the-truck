@@ -53,7 +53,7 @@ $(document).ready(function() {
 
   $('.btn').addClass("disabled");
 
-  $('.follow').click(function(){
+  $('.orange-button').click(function(){
     var $this = $(this);
     $this.toggleClass('unfollow')
     if($this.is('.unfollow')){

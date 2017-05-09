@@ -2128,15 +2128,15 @@ button[class*="-button secondary"] a{
 
 /*follow/unfollow*/
 button{
-  width:200px;
-  height:50px;
+  width:90px;
+  height:40px;
 }
 
-.follow .msg-follow {
+.orange-button .msg-follow {
   display: inline;
 }
 
-.follow .msg-unfollow {
+.orange-button .msg-unfollow {
   display: none;
 }
 
