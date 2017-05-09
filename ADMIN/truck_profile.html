@@ -17,7 +17,7 @@
 	<div class="container">
 
 		<div class="sticky-top">
-			<div class="header-onboarding-3"><!--back arrow, logo, hamburger menu-->
+			<div class="header-onboarding-2"><!--back arrow, logo, hamburger menu-->
 				<div class="row">
 					<div class="col-4-sm">
 						<!--back-->
@@ -25,12 +25,11 @@
 							<img src="images/new_direction_arrow.png" class="back-arrow" alt="back" align="left" width="15" height="30">
 						</a>
 
-
 					</div>
 
 					<div class="col-4-sm">
 						<!--logo-->
-						<a href="index.html"><img src="images/tiny_icon.png" alt="back" align="center"></a>
+						<img src="images/tiny_icon.png" alt="back" align="center">
 					</div>
 
 					<div class="col-4-sm">
@@ -39,158 +38,194 @@
 						<div class="mobile-nav-wrapper">
 							<a href="#" class="mobile-nav-exit"><i class="fa fa-times" style="color:#387ea5"></i></a><br>
 							<ul class="mobile-nav">
-								<li><a href="profile.html"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
-								<li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
-								<li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
-								<li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
-								<li><a href="#"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
-							</ul>
+
+								<ul class="mobile-nav">
+									<li><a href="truck_profile.html"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
+									<li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
+									<li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
+									<li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
+									<li><a href="admin_sign_in"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
+								</ul>
+							</div>
+
 						</div>
+					</div><!--closes arrow, logo, hamburger-->
 
-					</div>
-				</div><!--closes arrow, logo, hamburger-->
-
-				<div class="search">
-					<div class="row">
-						<div class="col-12">
-							<div class="wrap">
-								<div class="search">
-									<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
-									<button type="submit" class="searchButton">
-										<i class="fa fa-search"></i>
-									</button>
+					<div class="search">
+						<div class="row">
+							<div class="col-12">
+								<div class="wrap">
+									<div class="search">
+										<input type="text" class="searchTerm" placeholder="search for nearby  events..">
+										<button type="submit" class="searchButton">
+											<a href="refined_results.html"><i class="fa fa-search"></i></a>
+										</button>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div><!--closes search-->
-				<div class="page-title"><!--title on page-->
-					<h1-blue>THIS IS HOW YOUR PROFILE<br>APPEARS TO YOUR FOLLOWERS</h1>
+					</div><!--closes search-->
+
+					<div class="page-title">
+						<h1>WHAT THE TRUCK?</h1><h1-brown> PROFILE VIEW</h1-brown>   <a href="edit_profile.html"><button class="edit-truck-button">Edit</button></a>
 					</div>
 
 				</div><!--closes entire global top-->
 
 
-			</div><!--closes all sticky-->
+
+		</div><!--closes all sticky-->
 
 
-			<!--Page Feed-->
+		<!--Page Feed-->
 
-			<div class="truck-profile-page">
+		<div class="truck-profile-page">
 
-				<div class="row">
+			<div class="row">
 
-					<div class="blue-background">
-						<div class="col-12-sm">
-							<img src="images/purple_truck.jpg" alt="social1" width="100%" align="center">
+				<div class="blue-background">
+					<div class="col-12-sm">
+						<img src="images/purple_truck.jpg" alt="social1" width="100%" align="center">
+					</div>
+
+
+
+					<div class="row">
+
+
+						<div class="col-6-sm">
+							<a href="view_menu.html"><h3-yellow-truck> View Menu </h3-yellow-truck></a>
+
 						</div>
 
 
 
-						<div class="row">
+						<div class="col-6-sm">
+							<a href="booking_information.html"><h3-light-blue> Book this Truck</h3-light-blue></a>
+
+						</div>
+
+					</div>
+				</div>
+			</div>		
+			<br>
+			<div class="truck-profile-page-bottom">
+
+				<div class="row">
+					<div class="col-6-sm truck-profile">
+						<h4-truck><strong> Open 12pm-7pm </strong></h4-truck><br>						
+					</div>
+
+					<div class="col-6-sm truck-profile">
+						<button class="orange-button order-button"><a href="place_order.html">Order Now</a></button>						
+					</div>
 
 
-							<div class="col-6-sm">
-								<h3-yellow-truck> View Menu </h3>
 
-								</div>
+				</div>
 
+<div class="row">
+					<div class="truck-profile-icons">
+						<div class="col-4-sm">
 
+							<div class="pop-up-box"><!--one-->
+								<a class="pop-up-button" href="#popup3"><img src="images/ping.png" alt="social1" width="30px" align="center" class="truck-profile-icon1"></a>
+							</div>
 
-								<div class="col-6-sm">
-									<h3-light-blue> Book this Truck</h3>
-
+							<div id="popup3" class="overlay">
+								<div class="popup">
+									<div class="content">
+										What the Truck are you <br> trying to do?
 									</div>
+									<a href="google_maps.html"><button class="yellow-button">Directions</button><br></a>
+									<a href="check_in.html"><button class="yellow-button">Check-In</button></a>
+									<a class="close" href="#">&times;</a>
 
 								</div>
 							</div>
-						</div>		
-						<br>
-						<div class="truck-profile-page-bottom">
+						</div>
 
-							<div class="row">
-								<div class="col-6-sm truck-profile">
-									<h4-truck><strong> Open 12pm-7pm </strong></h4>	<br>						
-									</div>
+						<div class="col-4-sm">
+							<a href="truck_profile_heart.html"><img src="images/unslected_heart.png" alt="social1" width="40px" align="center" class="truck-profile-icon2"></a>
 
+						</div>						
 
+						<div class="col-4-sm">
 
-								</div>
-
-								<div class="row">
-									<div class="truck-profile-icons">
-										
-											
-										<div class="col-4-sm">
-											<img src="images/ping.png" alt="social1" width="40px" align="center" class="truck-profile-icon1"></a>
-
-										</div>
-									
-
-										<div class="col-4-sm">
-											<img src="images/unslected_heart.png" alt="social1" width="40px" align="center" class="truck-profile-icon2"></a>
-
-										</div>
-
-
-										<div class="col-4-sm">
-											<img src="images/message.png" alt="social1" width="40px" align="center" class="truck-profile-icon3"></a>
-
-										</div>
-
-
-
-									</div>
-								</div>
+							<div class="pop-up-box"><!--one-->
+								<a class="pop-up-button" href="#popup4"><img src="images/message.png" alt="social1" width="150px" align="left" class="truck-profile-icon3"></a>
 							</div>
 
-
-
-
-							<!--pop-up-->
-
-							<!--end of pop up-->			
-							<div class="row">
-								<div class="col-8-sm truck-profile">
-									<h4-truck> 85 East 15th Street, NYC </h4>							
+							<div id="popup4" class="overlay">
+								<div class="popup">
+									<div class="content">
+										What the Truck are you <br> trying to do?
 									</div>
-								</div>
+									<a href="leave_testimonial.html"><button class="yellow-button">Leave Review</button><br></a>
+									<a href="new_message.html"><button class="yellow-button">Message Truck</button></a>
+									<a class="close" href="#">&times;</a>
 
-								<br>
-
-							</div>
-
-
-							<div class="row">
-								<div class="truck-about">
-									<div class="col-12-sm">
-										<h4-red-truck> About: </h4-red-truck>
-									</div>
-								</div>
-
-								<div class="row">
-									<div class="col-12-sm">
-										<p-truck> Lorem ipsum dolor sit amet, skdhnkdnvlksdjnsdkjnkd </p-truck>
-									</div>
 								</div>
 							</div>
-							<br>
+						</div>
+					</div>
+				</div>
+				
+			<!--adding more here (end of pop up)-->
 
-							<div class="row">
-								<div class="truck-social-icons">
-									<div class="col-6-sm">
-										<img src="images/fb_logo.png" alt="social1" width="30px" align="center" class="truck-social-icon1">
-										<img src="images/twitter_logo.png" alt="social1" width="40px" align="center" class="truck-social-icon2">
-										<img src="images/insta_logo.png" alt="social1" width="35px" align="center" class="truck-social-icon3">
-									</div>
-								</div>
-							</div>
+			<div class="row">
+				<div class="col-8-sm truck-profile">
+					<h4-truck> 85 East 15th Street, NYC </h4-truck>							
+				</div>
+
+				<div class="col-4-sm truck-profile">
+					<img src="images/4stars.png" width="100px">						
+				</div>
+			</div>			
+
+</div>
+
+		<div class="row">
+			<div class="truck-about">
+				<div class="col-6-sm">
+					<h4-red-truck> About: </h4-red-truck>
+				</div>	
+				<div class="col-6-sm textright">	
+					<h4-blue-truck><strong> <a href="testimonials.html">See Reviews</a></strong> </h4-blue-truck>
+				</div>
+
+			</div>
+
+		</div>
 
 
+<div class="row">
+	<div class="col-12-sm textleft">
+		<p-truck-profile> The sweetest truck in all of the city!</p-truck-profile><br>
+	</div>
+</div>
 
+</div>
 
+<div class="row">
+	<div class="truck-social-icons">
+		<div class="col-6-sm">
+			<a href="facebook_truck.html"><img src="images/fb_logo.png" alt="social1" width="30px" align="center" class="truck-social-icon1"></a>
+			<a href="twitter_truck.html"><img src="images/twitter_logo.png" alt="social1" width="40px" align="center" class="truck-social-icon2"></a>
+			<a href="insta_truck.html"><img src="images/insta_logo.png" alt="social1" width="35px" align="center" class="truck-social-icon3"></a>
+		</div>
+	</div>
+</div>		
+<br>
+<br>
+<br>
+<br>
 
-						</div><!--closes main page feed-->
+						
+
+						
+</div><!--closes main page feed-->
+
 
 						<div class="footer">
 							<nav class="footer-nav">

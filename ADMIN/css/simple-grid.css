@@ -1656,6 +1656,14 @@ p-truck {
   margin-left: 10px;
 }
 
+p-truck-profile {
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.8;
+  text-align: left;
+}
+
 a {
   text-decoration: none;  /*no underline */
   color: black;
@@ -2177,6 +2185,16 @@ button[class*="-button secondary"] a{
     border: 2px solid #e27226; 
 }
 
+.order-button{
+  float: right;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 3;
+  line-height: 18px;
+}
+
 .orange-follow{
   background-color: white;
   color: black;
@@ -2435,6 +2453,17 @@ button[class*="-button secondary"] a{
     border: 2px solid #387ea5; 
 }
 
+.edit-truck-button {
+    background-color: white;
+    position: relative;
+    color: black;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-left: 10px;
+    padding: 3px 12px;
+    border: 2px solid #387ea5; 
+}
 .edit-menu-button {
     background-color: white;
     position: relative;
@@ -2864,57 +2893,89 @@ textarea {
   height: 100%;
 }
 
-.truck-profile-page-bottom{
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+  .truck-profile-page-bottom{
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-.truck-profile-page{
-  margin-top: 200px;
-  text-align: center;
-}
+
+ .truck-profile-page{
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+    height: 100%;
+  }
 
 .truck-menu-page{
   margin-top: 240px;
   text-align: left;
 }
 
-/*truck-profile-icons*/
+  .truck-profile{
+    line-height: 3;
+  }
+
+  /*truck-profile-icons*/
 
 
-.truck-profile-icons{
-  margin-left: 20px;
-}
+  .truck-profile-icons{
+    margin-left: -20px;
 
-.truck-profile-icon1{
-  padding-right: 10px;
-}
+  }
 
-.truck-profile-icon2{
-  padding-right: 10px;
-}
+  .truck-profile-icon1{
 
-.truck-social-icons{
-  margin-left: 20px;
-}
+  }
 
-.truck-social-icon1{
-  padding-right: 10px;
-}
+  .truck-profile-icon2{
+    margin-left: -140px;
+    margin-top: 5px;
 
-.truck-social-icon2{
-  padding-right: 10px;
-}
+  }
 
-.truck-about{
-  text-align: left;
-}
+  .truck-profile-icon3{
+    margin-left: -140px;
+    margin-top: 8px;
+  }
 
-.blue-background{
-  background-color: #387ea5;
-  width: 100%;
-}
+   .truck-profile-icon4{
+    margin-right: 50px;
+    margin-top: 2px;
+  }
+
+  .truck-social-icons{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 80px;
+
+  }
+
+  .truck-social-icon1{
+        margin-top: 20px;
+    padding-right: 10px;
+  }
+
+  .truck-social-icon2{
+        margin-top: 20px;
+    padding-right: 10px;
+  }
+
+
+  .truck-social-icon3{
+        margin-top: 20px;
+    padding-right: 10px;
+  }
+
+  .truck-about{
+    text-align: left;
+  }
+
+  .blue-background{
+    background-color: #387ea5;
+    width: 100%;
+  }
 
 .page-feed-basic {
   text-align: center;
