@@ -2162,6 +2162,16 @@ button[class*="-button secondary"] a{
     border: 2px solid #fdc561; 
 }
 
+.yellow-button-pop {
+    background-color: #fdc561;
+    color: black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 5px 1px;
+    border: 2px solid #fdc561;
+}
+
 .yellow-button a,
 .yellow-button-wide a {
     color:black !important;
