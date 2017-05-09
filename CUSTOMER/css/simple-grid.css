@@ -375,7 +375,7 @@ body {
 }
 
 .socialNotification{
-  background-image: url('../images/orange_social.png'); 
+  background-image: url('../images/social_notification.png'); 
   background-size: 41px 35px;
   background-repeat: no-repeat;   
 }
@@ -2127,7 +2127,27 @@ button[class*="-button secondary"] a{
 }
 
 /*follow/unfollow*/
+button{
+  width:200px;
+  height:50px;
+}
 
+.follow .msg-follow {
+  display: inline;
+}
+
+.follow .msg-unfollow {
+  display: none;
+}
+
+
+.unfollow .msg-follow {
+  display: none;
+}
+
+.unfollow .msg-unfollow {
+  display: inline;
+}
 
 
 /*radio buttons*/
