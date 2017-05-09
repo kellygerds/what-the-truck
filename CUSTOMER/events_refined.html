@@ -1,94 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--global on all pages-->
-<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
-<link href="https://fonts.googleapis.com/css?family=Lato|Luckiest+Guy" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
-<script src="scripts/script.js" type="text/javascript"></script>
+	<!--global on all pages-->
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Luckiest+Guy" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+	<script src="scripts/script.js" type="text/javascript"></script>
 </head>
 
 
 <body>
 
-<!--global top-->
-<div class="container">
+	<!--global top-->
+	<div class="container">
 
-<div class="sticky-top">
-		<div class="header"><!--back arrow, logo, hamburger menu-->
-			<div class="row">
-				<div class="col-4-sm">
-				<!--back-->
-				<a href="#" onclick="history.go(-1)">
-					<img src="images/new_direction_arrow.png" class="back-arrow" alt="back" align="left" width="15" height="30">
-				</a>
+		<div class="sticky-top">
+			<div class="header"><!--back arrow, logo, hamburger menu-->
+				<div class="row">
+					<div class="col-4-sm">
+						<!--back-->
+						<a href="#" onclick="history.go(-1)">
+							<img src="images/new_direction_arrow.png" class="back-arrow" alt="back" align="left" width="15" height="30">
+						</a>
 
 
-				</div>
+					</div>
 
-				<div class="col-4-sm">
-				<!--logo-->
-					<img src="images/tiny_icon.png" alt="back" align="center">
-				</div>
+					<div class="col-4-sm">
+						<!--logo-->
+						<img src="images/tiny_icon.png" alt="back" align="center">
+					</div>
 
-				<div class="col-4-sm">
-				<!--mobile menu-->
-				<a href="#" class="mobile-nav-toggle"><img src="images/hamburger_menu.png" alt="back" align="right" width="44" height="36"></a>
-					<div class="mobile-nav-wrapper">
-						<a href="#" class="mobile-nav-exit"><i class="fa fa-times" style="color:#387ea5"></i></a><br>
-						    <ul class="mobile-nav">
-			                  <li><a href="profile.html"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
-			                   <li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
-			                   <li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
-			                   <li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
-			                    <li><a href="sign_in.html"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
-		  					</ul>
-		  			</div>
+					<div class="col-4-sm">
+						<!--mobile menu-->
+						<a href="#" class="mobile-nav-toggle"><img src="images/hamburger_menu.png" alt="back" align="right" width="44" height="36"></a>
+						<div class="mobile-nav-wrapper">
+							<a href="#" class="mobile-nav-exit"><i class="fa fa-times" style="color:#387ea5"></i></a><br>
+							<ul class="mobile-nav">
+								<li><a href="profile.html"><i class="fa fa-user" style="color:#387ea5"></i><h3-blue>My Profile</h3></a></li><br>
+								<li><a href="revised_search.html"><i class="fa fa-search" style="color: #e27226"></i><h3-orange>Refine Search</h3></a></li><br>
+								<li><a href="settings.html"><i class="fa fa-cog" style="color: #387ea5"></i><h3-blue>Settings</h3></a></li><br>
+								<li><a href="notifications.html"><i class="fa fa-flag" style="color: #e27226"></i><h3-orange>Notifications</h3></a></li><br>
+								<li><a href="sign_in.html"><i class="fa fa-sign-out" style="color:#387ea5"></i><h3-blue>Log Out</h3></a></li>
+							</ul>
+						</div>
 
-				</div>
-			</div><!--closes arrow, logo, hamburger-->
+					</div>
+				</div><!--closes arrow, logo, hamburger-->
 
-		<div class="search">
+				<div class="search">
+					<div class="row">
+						<div class="col-12">
+							<div class="wrap">
+								<div class="search">
+									<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
+									<button type="submit" class="searchButton">
+										<a href="refined_results.html"><i class="fa fa-search"></i></a>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!--closes search-->
+
+
+			</div><!--closes entire global top-->
+
+
+
+			<!--nav-->
+			<nav class="main-nav">
 				<div class="row">
 					<div class="col-12">
-					<div class="wrap">
-   						<div class="search">
-      						<input type="text" class="searchTerm" placeholder="search by food, truck, event..">
-								<button type="submit" class="searchButton">
-								<a href="refined_results.html"><i class="fa fa-search"></i></a>
-								</button>
-   						</div>
-					</div>
+						<ul class="main-nav-list">
+							<li><a href="index.html">Suggested</a></li>
+							<li><a href="trucks.html">Trucks</a></li>
+							<li class="current"><a href="events.html">Events</a></li>
+							<li><a href="favorites.html">Favorites</a></li>
+						</ul>
 					</div>
 				</div>
-		</div><!--closes search-->
+			</nav><!--closes main nav-->
+
+		</div><!--closes all sticky-->
 
 
-		</div><!--closes entire global top-->
-
-
-
-		<!--nav-->
-		<nav class="main-nav">
-  			<div class="row">
-  				<div class="col-12">
-    				<ul class="main-nav-list">
-    					<li><a href="index.html">Suggested</a></li>
-    					<li><a href="trucks.html">Trucks</a></li>
-    					<li class="current"><a href="events.html">Events</a></li>
-    					<li><a href="favorites.html">Favorites</a></li>
-  					</ul>
-  				</div>
-  			</div>
-		</nav><!--closes main nav-->
-
-</div><!--closes all sticky-->
-
- 
 		<!--Page Feed-->
-			<div class="page-feed refined">
+		<div class="page-feed refined">
 			<div class="truck-feed">
 				<div class="row"><!--first vendor-->
 					<div class="col-4-sm"><!--vendor logo-->
@@ -99,82 +99,82 @@
 						<h4 align="left"> Center City <br> May 7th <br>12pm-5pm </h4>
 					</div>
 					<div class="col-2-sm"><!--arrow-->
-					<!--insert caret-->
-					<div class="caret">
-					<a href="event_profile.html"><i style="font-size:24px" class="fa">&#xf105;</i></a>
-					</div>
+						<!--insert caret-->
+						<div class="caret">
+							<a href="event_profile.html"><i style="font-size:24px" class="fa">&#xf105;</i></a>
+						</div>
 					</div>
 				</div>
 				<br>
 				<div class="border-bottom"></div>
 				<br>
 
-					<div class="row"><!--second vendor-->
-						<div class="col-4-sm truck"><!--vendor logo-->
-							<a href="event_profile.html"><img src="images/invasion.png" alt="WWV" width="100px" align="left"></a>
-						</div>
-						<div class="col-6-sm truck-desc"><!--vendor name-->
-							<a href="event_profile.html"><h3>Truck Invasion</h3></a>
-							<h4> Drexel University <br> May 11th <br>
+				<div class="row"><!--second vendor-->
+					<div class="col-4-sm truck"><!--vendor logo-->
+						<a href="event_profile.html"><img src="images/invasion.png" alt="WWV" width="100px" align="left"></a>
+					</div>
+					<div class="col-6-sm truck-desc"><!--vendor name-->
+						<a href="event_profile.html"><h3>Truck Invasion</h3></a>
+						<h4> Drexel University <br> May 11th <br>
 							12pm-9pm</h4>
 						</div>
 						<div class="col-2-sm"><!--arrow-->
 							<!--insert caret-->
 							<div class="caret">
-							<i style="font-size:24px" class="fa">&#xf105;</i>
+								<i style="font-size:24px" class="fa">&#xf105;</i>
 							</div>
 						</div>
 
 					</div>
 				</div> <!--closes truck feed-->	
-					<br>
+				<br>
 				<div class="border-bottom">
 				</div>
 
-					<br>
+				<br>
 
-					<div class="row"><!--third vendor-->
-						<div class="col-4-sm truck"><!--vendor logo-->
-							<a href="event_profile.html"><img src="images/York_Venue.jpg" alt="Carrot" width="100px" align="left"></a>
-						</div>
-						<div class="col-6-sm truck-desc"><!--vendor name-->
-							<a href="event_profile.html"><h3>King City Festival</h3></a>
-							<h4> County Park <br> May 20th<br>
+				<div class="row"><!--third vendor-->
+					<div class="col-4-sm truck"><!--vendor logo-->
+						<a href="event_profile.html"><img src="images/York_Venue.jpg" alt="Carrot" width="100px" align="left"></a>
+					</div>
+					<div class="col-6-sm truck-desc"><!--vendor name-->
+						<a href="event_profile.html"><h3>King City Festival</h3></a>
+						<h4> County Park <br> May 20th<br>
 							11am-7pm</h4>
 						</div>
 						<div class="col-2-sm"><!--arrow-->
 							<!--insert caret-->
 							<div class="caret">
-							<i style="font-size:24px" class="fa">&#xf105;</i>
+								<i style="font-size:24px" class="fa">&#xf105;</i>
 							</div>
 						</div>
 					</div>
 					<br>
-				<div class="border-bottom">
-				</div>
+					<div class="border-bottom">
+					</div>
 
 
-		</div><!--closes main page feed-->
+				</div><!--closes main page feed-->
 
-<!--bottom nav-->
-<div class="footer">
-	<nav class="footer-nav">
-  			<div class="row">
-  				<div class="col-12">
-    				<ul class="footer-nav-icons">
-    					<li><a href="index.html"><img src="images/home.png" alt="Home" width="40" height="34"></a></li>
-    					<li><a href="calendar.html"><img src="images/calendar.png" alt="Calendar" width="33" height="34"></a></li>
-    					<li><a href="mobile_pay.html"><img src="images/mobile_pay.png" alt="Mobile Pay" width="17" height="35"></a></li>
-    					<li><a href="foodie_feed.html"><img src="images/social.png" alt="Social" width="41" height="35"></a></li>
-    					<li><a href="rewards.html"><img src="images/rewards.png" alt="Rewards" width="53" height="35"></a></li>
-  					</ul>
-  				</div>
-  			</div>
-		</nav>
-</div><!--closes footer-->
+				<!--bottom nav-->
+				<div class="footer">
+					<nav class="footer-nav">
+						<div class="row">
+							<div class="col-12">
+								<ul class="footer-nav-icons">
+									<li><a href="index.html"><img src="images/home.png" alt="Home" width="40" height="34"></a></li>
+									<li><a href="calendar.html"><img src="images/calendar.png" alt="Calendar" width="33" height="34"></a></li>
+									<li><a href="mobile_pay.html"><img src="images/mobile_pay.png" alt="Mobile Pay" width="17" height="35"></a></li>
+									<li><a href="foodie_feed.html"><img src="images/social.png" alt="Social" width="41" height="35"></a></li>
+									<li><a href="rewards.html"><img src="images/rewards.png" alt="Rewards" width="53" height="35"></a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div><!--closes footer-->
 
 
 
-</div><!--closes CONTAINER for entire page-->
-</body>
-</html>
+			</div><!--closes CONTAINER for entire page-->
+		</body>
+		</html>
